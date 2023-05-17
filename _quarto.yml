@@ -24,7 +24,16 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
+    - open_education.qmd
+    - where_to_start.qmd
+    - keeping_up_to_date.qmd
+    - resources.qmd
+    - impact.qmd
+    - part: examples.qmd
+      chapters:
+      - example_lecture.qmd
+      - example_course.qmd
+  appendices:
     - references.qmd
 
 bibliography: references.bib
