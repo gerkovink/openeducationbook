@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Open Education Book",
+    "section": "",
+    "text": "Preface\nWith pride, we present to you this book on Open Educational Materials (OEM). This book has been written with the assistance of ChatGPT, a program that has helped us explain all the information related to this topic in a clear manner.\nOur goal with this book is to provide a free, comprehensive, and easily understandable source of information for people interested in OEM. We firmly believe that everyone should have access to high-quality educational resources, regardless of their financial resources.\nWe hope that this book will serve as a valuable source of information for you. We express our gratitude to ChatGPT, which has assisted us in writing this book. Naturally, we have undertaken the editing process to ensure the accuracy of the information. Thus, we take full responsibility for the content presented in this book."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "What we are going to cover:\n\nWhat is open education?\n\nwithin the context of open science\nnot just the end result\nincluding data from examples\n\nWhere do you start?\n\nmaking it open (retrospectively) or starting open (prospectively)\nLicensing (boring but you have to know it)\n\nintellectual property, copyright, and public domain\ncc-by & cc-by-sa as proposals\n\n\nHow do you keep it up-to-date?\nWhat resources are there?\n\nGithub\nOSF\n\nHow do you get appreciation / generate impact\n\nzenodo\nimpact\n\nExamples\n\na lecture\na course"
+  },
+  {
+    "objectID": "open_education.html#within-the-context-of-open-science",
+    "href": "open_education.html#within-the-context-of-open-science",
+    "title": "2  What is open education?",
+    "section": "2.1 within the context of open science",
+    "text": "2.1 within the context of open science"
+  },
+  {
+    "objectID": "open_education.html#not-just-the-end-result",
+    "href": "open_education.html#not-just-the-end-result",
+    "title": "2  What is open education?",
+    "section": "2.2 not just the end result",
+    "text": "2.2 not just the end result"
+  },
+  {
+    "objectID": "open_education.html#including-data-from-examples",
+    "href": "open_education.html#including-data-from-examples",
+    "title": "2  What is open education?",
+    "section": "2.3 including data from examples",
+    "text": "2.3 including data from examples"
+  },
+  {
+    "objectID": "where_to_start.html#making-it-open-prospective-or-retrospective",
+    "href": "where_to_start.html#making-it-open-prospective-or-retrospective",
+    "title": "3  Where do you start?",
+    "section": "3.1 Making it open: Prospective or Retrospective",
+    "text": "3.1 Making it open: Prospective or Retrospective\nEmbracing open education represents a profound shift in the way we create, share, and interact with educational resources. As you embark on this journey, one of the first decisions you’ll encounter is whether to make existing educational materials open (retrospective), start new projects with open education in mind (prospective), or a combination of both.\nEach approach comes with its own set of challenges and rewards. On one hand, opening up existing materials can provide immediate benefits in terms of accessibility and collaboration. On the other hand, this approach can be time-consuming and complex, especially when dealing with issues such as copyright and the technical aspects of transforming existing resources into open formats.\nStarting fresh with open education in mind when developing new materials, however, can often be a more streamlined process. From the outset, you can design your resources to be open, eliminating the need for later adaptations. Yet, this approach may mean that valuable existing resources remain closed off, at least in the short term.\nThe decision between these two approaches is not a binary one. A successful open education initiative often incorporates elements of both strategies. Opening up materials is always a win, but it’s crucial to strike a balance between feasibility, effort, and the eventual result. You might find that while some existing resources lend themselves well to being opened retrospectively, for others, it might be more worthwhile to leave them as they are and focus on incorporating open principles in new projects.\nRemember, the ultimate goal is to improve the accessibility and adaptability of educational resources. Whether you achieve this by opening existing materials or designing new ones with openness in mind will depend on your unique circumstances, resources, and goals. Let’s explore these two approaches in greater detail.\n\n3.1.1 Starting Open Prospectively\n\nPlanning for Openness from the Start\n\n\nThe importance of setting clear goals and understanding your audience.\nChoosing the right open format and platform that suits your needs.\nWhat is the scope of how open you want to make it? Does it include (practice) exams?\nConsidering the legal aspects from the onset – Intellectual Property, Copyright, Public Domain, and Creative Commons licenses. (we help in section XX)\nOpen Bonus: Identifying potential collaborators and building a community around your project.\n\n\nCreating Content with Open Principles in Mind\n\n\nEmphasizing accessibility and inclusivity in your content creation.\nUsing open and transparent methods in your content creation process.\n\nlink towards chapter 5 resources\n\nEnsuring your content is adaptable and modifiable to suit different needs.\n\nlink to chapter 4 keeping it up to date\ntopics such as, store raw files, not the resulting pdfs for instance.\n\nOpen Bonus: Fostering collaboration – how to design content that encourages participation.\n\n\nLeveraging the Benefits\n\n\nImproving educational equity by making high-quality resources accessible to all.\nEnhancing the learning experience by enabling learners to interact with and adapt the resources.\n\nlink to chapter 5 resources, also make sure issues can be reported.\n\nShare your work: Gaining recognition and impact in the educational community.\nEnriching your content and staying up-to-date through continuous community contributions.\n\n\n\n3.1.2 Making it Open Retrospectively\n\nEvaluating Existing Resources\nTransforming and Adapting Content\nOvercoming Challenges"
+  },
+  {
+    "objectID": "where_to_start.html#licensing-the-legalities-of-open-education",
+    "href": "where_to_start.html#licensing-the-legalities-of-open-education",
+    "title": "3  Where do you start?",
+    "section": "3.2 Licensing: The Legalities of Open Education",
+    "text": "3.2 Licensing: The Legalities of Open Education\n\n3.2.1 Intellectual Property, Copyright, and Public Domain\n\nDefining Terms: Intellectual Property, Copyright, and Public Domain\nUnderstanding the Significance in Education\nNavigating the Complexities\n\n\n\n3.2.2 Creative Commons: cc-by & cc-by-sa\n\nIntroduction to Creative Commons Licensing\nUnderstanding cc-by and cc-by-sa\nApplying Creative Commons Licenses in Open Education\n\n\n\n3.2.3 intellectual property, copyright, and public domain\n\n\n3.2.4 cc-by & cc-by-sa as proposals"
+  },
+  {
+    "objectID": "where_to_start.html#recap-steps-to-start-an-open-education-initiative",
+    "href": "where_to_start.html#recap-steps-to-start-an-open-education-initiative",
+    "title": "3  Where do you start?",
+    "section": "3.3 Recap: Steps to Start an Open Education Initiative",
+    "text": "3.3 Recap: Steps to Start an Open Education Initiative\n\nIdentifying Your Goals and Audience\nSelecting Suitable Content and Format\nNavigating Licensing and Legal Aspects\nPlanning for Accessibility and Inclusivity\nCollaborating with Others in the Community"
+  },
+  {
+    "objectID": "resources.html#github",
+    "href": "resources.html#github",
+    "title": "5  Resources",
+    "section": "5.1 Github",
+    "text": "5.1 Github"
+  },
+  {
+    "objectID": "resources.html#osf",
+    "href": "resources.html#osf",
+    "title": "5  Resources",
+    "section": "5.2 OSF",
+    "text": "5.2 OSF"
+  },
+  {
+    "objectID": "impact.html#zenodo",
+    "href": "impact.html#zenodo",
+    "title": "6  Generating Impact",
+    "section": "6.1 zenodo",
+    "text": "6.1 zenodo"
+  }
+]

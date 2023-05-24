@@ -1,4 +1,4 @@
-# What is open education?
+# What is open education? {#sec-open_education}
 
 ## within the context of open science
 

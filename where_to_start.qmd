@@ -1,10 +1,92 @@
 # Where do you start?
 
+Congratulations on making it this far! Your interest in open educational materials, and your willingness to learn about and implement them, is a testament to your dedication to accessible, equitable, and collaborative learning. Thank you for your commitment to this approach in education.
 
-## making it open (retrospectively) or starting open (prospectively)
+This chapter is an important waypoint in your open education journey. You've learned about what open education entails in @sec-open_education, and now, you might be wondering how to practically apply it in your own context. We've designed this chapter to guide you through the first steps in that process.
 
-## Licensing (boring but you have to know it)
+We begin by discussing the choice between making educational materials open prospectively or retrospectively. Both these approaches offer unique challenges and opportunities. Although prospective design of open educational materials will be easier in practice. Understanding the differences and challenges can help you make informed decisions when designing or adapting your resources.
+
+Next, we delve into the legalities associated with open education, focusing on licensing. This can often seem daunting, but it's a crucial aspect to consider. We'll dissect complex terms like Intellectual Property, Copyright, and Public Domain, making them more approachable. We'll also look at the role of Creative Commons licenses, particularly cc-by and cc-by-sa, in facilitating the sharing and usage of open educational materials.
+
+Finally, we'll recap the steps to starting an open education initiative, providing a practical checklist to help you navigate this process. This will include tips on identifying your goals and audience, selecting content and format, planning for accessibility, and fostering a spirit of community collaboration.
+
+
+## Making it open: Prospective or Retrospective
+
+Embracing open education represents a profound shift in the way we create, share, and interact with educational resources. As you embark on this journey, one of the first decisions you'll encounter is whether to make existing educational materials open (retrospective), start new projects with open education in mind (prospective), or a combination of both. 
+
+Each approach comes with its own set of challenges and rewards. On one hand, opening up existing materials can provide immediate benefits in terms of accessibility and collaboration. On the other hand, this approach can be time-consuming and complex, especially when dealing with issues such as copyright and the technical aspects of transforming existing resources into open formats. 
+
+Starting fresh with open education in mind when developing new materials, however, can often be a more streamlined process. From the outset, you can design your resources to be open, eliminating the need for later adaptations. Yet, this approach may mean that valuable existing resources remain closed off, at least in the short term.
+
+The decision between these two approaches is not a binary one. A successful open education initiative often incorporates elements of both strategies. Opening up materials is always a win, but it's crucial to strike a balance between feasibility, effort, and the eventual result. You might find that while some existing resources lend themselves well to being opened retrospectively, for others, it might be more worthwhile to leave them as they are and focus on incorporating open principles in new projects.
+
+Remember, the ultimate goal is to improve the accessibility and adaptability of educational resources. Whether you achieve this by opening existing materials or designing new ones with openness in mind will depend on your unique circumstances, resources, and goals. Let's explore these two approaches in greater detail.
+
+### Starting Open Prospectively
+
+1. Planning for Openness from the Start
+
+- The importance of setting clear goals and understanding your audience.
+- Choosing the right open format and platform that suits your needs.
+- What is the scope of how open you want to make it? Does it include (practice) exams?
+- Considering the legal aspects from the onset – Intellectual Property, Copyright, Public Domain, and Creative Commons licenses. (we help in section XX)
+- Open Bonus: Identifying potential collaborators and building a community around your project.
+
+2. Creating Content with Open Principles in Mind
+
+- Emphasizing accessibility and inclusivity in your content creation.
+- Using open and transparent methods in your content creation process.
+  - link towards chapter 5 resources
+- Ensuring your content is adaptable and modifiable to suit different needs.
+  - link to chapter 4 keeping it up to date
+  - topics such as, store raw files, not the resulting pdfs for instance. 
+- Open Bonus: Fostering collaboration – how to design content that encourages participation.
+
+
+3. Leveraging the Benefits
+
+- Improving educational equity by making high-quality resources accessible to all.
+- Enhancing the learning experience by enabling learners to interact with and adapt the resources.
+  - link to chapter 5 resources, also make sure issues can be reported.
+- Share your work: Gaining recognition and impact in the educational community.
+- Enriching your content and staying up-to-date through continuous community contributions.
+
+
+
+### Making it Open Retrospectively
+
+1. Evaluating Existing Resources
+2. Transforming and Adapting Content
+3. Overcoming Challenges
+
+
+## Licensing: The Legalities of Open Education
+
+### Intellectual Property, Copyright, and Public Domain
+
+1. Defining Terms: Intellectual Property, Copyright, and Public Domain
+2. Understanding the Significance in Education
+3. Navigating the Complexities
+
+### Creative Commons: cc-by & cc-by-sa
+
+1. Introduction to Creative Commons Licensing
+2. Understanding cc-by and cc-by-sa
+3. Applying Creative Commons Licenses in Open Education
+
+
 
 ### intellectual property, copyright, and public domain
 
 ### cc-by & cc-by-sa as proposals
+
+## Recap: Steps to Start an Open Education Initiative
+
+- Identifying Your Goals and Audience
+- Selecting Suitable Content and Format
+- Navigating Licensing and Legal Aspects
+- Planning for Accessibility and Inclusivity
+- Collaborating with Others in the Community
+
+
