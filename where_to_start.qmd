@@ -28,10 +28,31 @@ Remember, the ultimate goal is to improve the accessibility and adaptability of 
 1. Planning for Openness from the Start
 
 - The importance of setting clear goals and understanding your audience.
+
+When embarking on a journey to create open educational materials, having a clear sense of direction is crucial. This starts with setting clear goals for your open education project. What do you hope to achieve by making your educational materials open? Is it to increase (free) access to quality education, promote collaboration among learners, or adapt to diverse learning needs and styles? Having a clear understanding of your goals will guide your decisions throughout the project and help you measure your success.
+
+At the same time, you should also seek to understand your audience, as this will heavily influence the design and presentation of your open educational materials. Who are your learners? What are their learning needs and preferences? How tech-savvy are they? What languages do they speak? Do they have specific accessibility needs? An understanding of your audience will ensure that your open educational materials are relevant, useful, and accessible to those who need them.
+
+Setting clear goals and understanding your audience might require some research and reflection, but it's worth the effort. These two aspects form the foundation upon which successful open education projects are built. They ensure that your project stays focused, meets learners' needs, and achieves its intended impact. So before you delve into the details of creating open educational materials, take some time to outline your goals and understand your audience, @tbl-scoping_questions1 can help you. It's your first step towards a successful open education project.
+
+| Questions to Consider | Your Answers |
+| --- | --- |
+| What do you hope to achieve by making your educational materials open? |  |
+| Who are your learners? |  |
+| What are their learning needs and preferences? |  |
+| How tech-savvy are your learners? |  |
+| What languages do your learners speak? |  |
+| Do your learners have specific accessibility needs? |  |
+
+: Scoping questions for goals and target audience. {#tbl-scoping_questions1}
+
+
 - Choosing the right open format and platform that suits your needs.
 - What is the scope of how open you want to make it? Does it include (practice) exams?
 - Considering the legal aspects from the onset – Intellectual Property, Copyright, Public Domain, and Creative Commons licenses. (we help in section XX)
 - Open Bonus: Identifying potential collaborators and building a community around your project.
+
+
 
 2. Creating Content with Open Principles in Mind
 
@@ -54,11 +75,52 @@ Remember, the ultimate goal is to improve the accessibility and adaptability of 
 
 
 
+
+```{mermaid}
+%%| fig-cap: Note this figure is not yet ready and just here as an idea to put a sequence of actions as an overview.
+%%| label: fig-planning_for_openness
+timeline
+  title Starting Open Prospectively
+  section Planning for Openness
+    Scoping : Make goals
+           : Define your audience
+    Practicalities : Determine suitable format
+                   : Choose a platform
+                   : Licencing
+  section Creating content
+    Considerations : accessibility
+                   : updating and maintanance
+    
+```
+
+See @fig-planning_for_openness for a quick overview of the steps described in this section.
+
+
+
 ### Making it Open Retrospectively
 
 1. Evaluating Existing Resources
 2. Transforming and Adapting Content
 3. Overcoming Challenges
+
+```{mermaid}
+%%| fig-cap: Note this figure is not yet ready and just here as an idea to put a sequence of actions as an overview.
+%%| label: fig-making_it_open
+timeline
+  title Making it Open
+  section Evaluating Existing Resources
+    Scoping : What are current rules?
+    Practicalities : Do you have source materials? 
+                   : ...
+  section Transforming and Adapting Content
+    Considerations : accessibility
+                   : updating and maintanance
+    
+```
+
+See @fig-making_it_open for a quick overview of the steps described in this section.
+
+
 
 
 ## Licensing: The Legalities of Open Education

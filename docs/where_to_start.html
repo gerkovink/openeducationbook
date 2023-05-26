@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.4.90">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -57,9 +57,13 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -68,11 +72,16 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Where do you start?</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./where_to_start.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Where do you start?</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -80,88 +89,100 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Open Education Book</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/gerkovink/openeducationbook" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/gerkovink/openeducationbook" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./open_education.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">What is open education?</span></a>
+  <a href="./open_education.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">What is open education?</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./where_to_start.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Where do you start?</span></a>
+  <a href="./where_to_start.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Where do you start?</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./keeping_up_to_date.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Keeing it up-to-date</span></a>
+  <a href="./keeping_up_to_date.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Keeing it up-to-date</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./resources.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Resources</span></a>
+  <a href="./resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Resources</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./impact.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Generating Impact</span></a>
+  <a href="./impact.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Generating Impact</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./examples.html" class="sidebar-item-text sidebar-link">Case studies</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a href="./examples.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Case studies</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./example_lecture.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">An open lecture</span></a>
+  <a href="./example_lecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">An open lecture</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./example_course.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">An open course</span></a>
+  <a href="./example_course.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">An open course</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Appendices</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
   </div>
 </li>
       </ul>
@@ -169,25 +190,26 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#making-it-open-prospective-or-retrospective" id="toc-making-it-open-prospective-or-retrospective" class="nav-link active" data-scroll-target="#making-it-open-prospective-or-retrospective"><span class="toc-section-number">3.1</span>  Making it open: Prospective or Retrospective</a>
+  <li><a href="#making-it-open-prospective-or-retrospective" id="toc-making-it-open-prospective-or-retrospective" class="nav-link active" data-scroll-target="#making-it-open-prospective-or-retrospective"><span class="header-section-number">3.1</span> Making it open: Prospective or Retrospective</a>
   <ul class="collapse">
-  <li><a href="#starting-open-prospectively" id="toc-starting-open-prospectively" class="nav-link" data-scroll-target="#starting-open-prospectively"><span class="toc-section-number">3.1.1</span>  Starting Open Prospectively</a></li>
-  <li><a href="#making-it-open-retrospectively" id="toc-making-it-open-retrospectively" class="nav-link" data-scroll-target="#making-it-open-retrospectively"><span class="toc-section-number">3.1.2</span>  Making it Open Retrospectively</a></li>
+  <li><a href="#starting-open-prospectively" id="toc-starting-open-prospectively" class="nav-link" data-scroll-target="#starting-open-prospectively"><span class="header-section-number">3.1.1</span> Starting Open Prospectively</a></li>
+  <li><a href="#making-it-open-retrospectively" id="toc-making-it-open-retrospectively" class="nav-link" data-scroll-target="#making-it-open-retrospectively"><span class="header-section-number">3.1.2</span> Making it Open Retrospectively</a></li>
   </ul></li>
-  <li><a href="#licensing-the-legalities-of-open-education" id="toc-licensing-the-legalities-of-open-education" class="nav-link" data-scroll-target="#licensing-the-legalities-of-open-education"><span class="toc-section-number">3.2</span>  Licensing: The Legalities of Open Education</a>
+  <li><a href="#licensing-the-legalities-of-open-education" id="toc-licensing-the-legalities-of-open-education" class="nav-link" data-scroll-target="#licensing-the-legalities-of-open-education"><span class="header-section-number">3.2</span> Licensing: The Legalities of Open Education</a>
   <ul class="collapse">
-  <li><a href="#intellectual-property-copyright-and-public-domain" id="toc-intellectual-property-copyright-and-public-domain" class="nav-link" data-scroll-target="#intellectual-property-copyright-and-public-domain"><span class="toc-section-number">3.2.1</span>  Intellectual Property, Copyright, and Public Domain</a></li>
-  <li><a href="#creative-commons-cc-by-cc-by-sa" id="toc-creative-commons-cc-by-cc-by-sa" class="nav-link" data-scroll-target="#creative-commons-cc-by-cc-by-sa"><span class="toc-section-number">3.2.2</span>  Creative Commons: cc-by &amp; cc-by-sa</a></li>
-  <li><a href="#intellectual-property-copyright-and-public-domain-1" id="toc-intellectual-property-copyright-and-public-domain-1" class="nav-link" data-scroll-target="#intellectual-property-copyright-and-public-domain-1"><span class="toc-section-number">3.2.3</span>  intellectual property, copyright, and public domain</a></li>
-  <li><a href="#cc-by-cc-by-sa-as-proposals" id="toc-cc-by-cc-by-sa-as-proposals" class="nav-link" data-scroll-target="#cc-by-cc-by-sa-as-proposals"><span class="toc-section-number">3.2.4</span>  cc-by &amp; cc-by-sa as proposals</a></li>
+  <li><a href="#intellectual-property-copyright-and-public-domain" id="toc-intellectual-property-copyright-and-public-domain" class="nav-link" data-scroll-target="#intellectual-property-copyright-and-public-domain"><span class="header-section-number">3.2.1</span> Intellectual Property, Copyright, and Public Domain</a></li>
+  <li><a href="#creative-commons-cc-by-cc-by-sa" id="toc-creative-commons-cc-by-cc-by-sa" class="nav-link" data-scroll-target="#creative-commons-cc-by-cc-by-sa"><span class="header-section-number">3.2.2</span> Creative Commons: cc-by &amp; cc-by-sa</a></li>
+  <li><a href="#intellectual-property-copyright-and-public-domain-1" id="toc-intellectual-property-copyright-and-public-domain-1" class="nav-link" data-scroll-target="#intellectual-property-copyright-and-public-domain-1"><span class="header-section-number">3.2.3</span> intellectual property, copyright, and public domain</a></li>
+  <li><a href="#cc-by-cc-by-sa-as-proposals" id="toc-cc-by-cc-by-sa-as-proposals" class="nav-link" data-scroll-target="#cc-by-cc-by-sa-as-proposals"><span class="header-section-number">3.2.4</span> cc-by &amp; cc-by-sa as proposals</a></li>
   </ul></li>
-  <li><a href="#recap-steps-to-start-an-open-education-initiative" id="toc-recap-steps-to-start-an-open-education-initiative" class="nav-link" data-scroll-target="#recap-steps-to-start-an-open-education-initiative"><span class="toc-section-number">3.3</span>  Recap: Steps to Start an Open Education Initiative</a></li>
+  <li><a href="#recap-steps-to-start-an-open-education-initiative" id="toc-recap-steps-to-start-an-open-education-initiative" class="nav-link" data-scroll-target="#recap-steps-to-start-an-open-education-initiative"><span class="header-section-number">3.3</span> Recap: Steps to Start an Open Education Initiative</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/gerkovink/openeducationbook/edit/dev/where_to_start.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/gerkovink/openeducationbook/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -196,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Where do you start?</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Where do you start?</span></h1>
 </div>
 
 
@@ -212,7 +234,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Congratulations on making it this far! Your interest in open educational materials, and your willingness to learn about and implement them, is a testament to your dedication to accessible, equitable, and collaborative learning. Thank you for your commitment to this approach in education.</p>
-<p>This chapter is an important waypoint in your open education journey. You’ve learned about what open education entails in <a href="open_education.html"><span>Chapter&nbsp;2</span></a>, and now, you might be wondering how to practically apply it in your own context. We’ve designed this chapter to guide you through the first steps in that process.</p>
+<p>This chapter is an important waypoint in your open education journey. You’ve learned about what open education entails in <a href="open_education.html" class="quarto-xref"><span>Chapter&nbsp;2</span></a>, and now, you might be wondering how to practically apply it in your own context. We’ve designed this chapter to guide you through the first steps in that process.</p>
 <p>We begin by discussing the choice between making educational materials open prospectively or retrospectively. Both these approaches offer unique challenges and opportunities. Although prospective design of open educational materials will be easier in practice. Understanding the differences and challenges can help you make informed decisions when designing or adapting your resources.</p>
 <p>Next, we delve into the legalities associated with open education, focusing on licensing. This can often seem daunting, but it’s a crucial aspect to consider. We’ll dissect complex terms like Intellectual Property, Copyright, and Public Domain, making them more approachable. We’ll also look at the role of Creative Commons licenses, particularly cc-by and cc-by-sa, in facilitating the sharing and usage of open educational materials.</p>
 <p>Finally, we’ll recap the steps to starting an open education initiative, providing a practical checklist to help you navigate this process. This will include tips on identifying your goals and audience, selecting content and format, planning for accessibility, and fostering a spirit of community collaboration.</p>
@@ -230,6 +252,52 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <ul>
 <li>The importance of setting clear goals and understanding your audience.</li>
+</ul>
+<p>When embarking on a journey to create open educational materials, having a clear sense of direction is crucial. This starts with setting clear goals for your open education project. What do you hope to achieve by making your educational materials open? Is it to increase (free) access to quality education, promote collaboration among learners, or adapt to diverse learning needs and styles? Having a clear understanding of your goals will guide your decisions throughout the project and help you measure your success.</p>
+<p>At the same time, you should also seek to understand your audience, as this will heavily influence the design and presentation of your open educational materials. Who are your learners? What are their learning needs and preferences? How tech-savvy are they? What languages do they speak? Do they have specific accessibility needs? An understanding of your audience will ensure that your open educational materials are relevant, useful, and accessible to those who need them.</p>
+<p>Setting clear goals and understanding your audience might require some research and reflection, but it’s worth the effort. These two aspects form the foundation upon which successful open education projects are built. They ensure that your project stays focused, meets learners’ needs, and achieves its intended impact. So before you delve into the details of creating open educational materials, take some time to outline your goals and understand your audience, <a href="#tbl-scoping_questions1" class="quarto-xref">Table&nbsp;<span>3.1</span></a> can help you. It’s your first step towards a successful open education project.</p>
+<div id="tbl-scoping_questions1" class="anchored">
+<table class="table">
+<caption>Table&nbsp;3.1: Scoping questions for goals and target audience.</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Questions to Consider</th>
+<th>Your Answers</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>What do you hope to achieve by making your educational materials open?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Who are your learners?</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>What are their learning needs and preferences?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>How tech-savvy are your learners?</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>What languages do your learners speak?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Do your learners have specific accessibility needs?</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
 <li>Choosing the right open format and platform that suits your needs.</li>
 <li>What is the scope of how open you want to make it? Does it include (practice) exams?</li>
 <li>Considering the legal aspects from the onset – Intellectual Property, Copyright, Public Domain, and Creative Commons licenses. (we help in section XX)</li>
@@ -263,6 +331,31 @@ ul.task-list li input[type="checkbox"] {
 <li>Share your work: Gaining recognition and impact in the educational community.</li>
 <li>Enriching your content and staying up-to-date through continuous community contributions.</li>
 </ul>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-planning_for_openness" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-planning_for_openness">timeline
+  title Starting Open Prospectively
+  section Planning for Openness
+    Scoping : Make goals
+           : Define your audience
+    Practicalities : Determine suitable format
+                   : Choose a platform
+                   : Licencing
+  section Creating content
+    Considerations : accessibility
+                   : updating and maintanance
+    
+</pre>
+</div>
+<figcaption class="figure-caption">Figure&nbsp;3.1: Note this figure is not yet ready and just here as an idea to put a sequence of actions as an overview.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>See <a href="#fig-planning_for_openness" class="quarto-xref">Figure&nbsp;<span>3.1</span></a> for a quick overview of the steps described in this section.</p>
 </section>
 <section id="making-it-open-retrospectively" class="level3" data-number="3.1.2">
 <h3 data-number="3.1.2" class="anchored" data-anchor-id="making-it-open-retrospectively"><span class="header-section-number">3.1.2</span> Making it Open Retrospectively</h3>
@@ -271,6 +364,29 @@ ul.task-list li input[type="checkbox"] {
 <li>Transforming and Adapting Content</li>
 <li>Overcoming Challenges</li>
 </ol>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-making_it_open" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-making_it_open">timeline
+  title Making it Open
+  section Evaluating Existing Resources
+    Scoping : What are current rules?
+    Practicalities : Do you have source materials? 
+                   : ...
+  section Transforming and Adapting Content
+    Considerations : accessibility
+                   : updating and maintanance
+    
+</pre>
+</div>
+<figcaption class="figure-caption">Figure&nbsp;3.2: Note this figure is not yet ready and just here as an idea to put a sequence of actions as an overview.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>See <a href="#fig-making_it_open" class="quarto-xref">Figure&nbsp;<span>3.2</span></a> for a quick overview of the steps described in this section.</p>
 </section>
 </section>
 <section id="licensing-the-legalities-of-open-education" class="level2" data-number="3.2">
@@ -339,9 +455,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -377,10 +507,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -390,8 +519,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -406,6 +544,147 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      try { hash = new URL(url).hash; } catch {}
+      const id = hash.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        try {
+          const html = processXRef(id, note);
+          instance.setContent(html);
+        } finally {
+          instance.enable();
+          instance.show();
+        }
+      } else {
+        // See if we can fetch this
+        fetch(url.split('#')[0])
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.getElementById(id);
+          console.log(htmlDoc.body.innerHTML);
+          if (note !== null) {
+            const html = processXRef(id, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
