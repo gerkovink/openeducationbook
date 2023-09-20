@@ -21,15 +21,31 @@ Starting fresh with open education in mind when developing new materials, howeve
 
 The decision between these two approaches is not a binary one. A successful open education initiative often incorporates elements of both strategies. Opening up materials is always a win, but it's crucial to strike a balance between feasibility, effort, and the eventual result. You might find that while some existing resources lend themselves well to being opened retrospectively, for others, it might be more worthwhile to leave them as they are and focus on incorporating open principles in new projects.
 
-Remember, the ultimate goal is to improve the accessibility and adaptability of educational resources. Whether you achieve this by opening existing materials or designing new ones with openness in mind will depend on your unique circumstances, resources, and goals. Let's explore these two approaches in greater detail.
+Remember, the ultimate goal is to improve the accessibility and adaptability of educational resources. Whether you achieve this by opening existing materials or designing new ones with openness in mind will depend on your unique circumstances, resources, and goals. Let's explore these two approaches in greater detail. 
 
 ### Starting Open Prospectively
+
+Embarking on the journey of creating open educational materials is a rewarding endeavor, but like all significant initiatives, it requires structured planning and execution. This process is delineated into four pivotal stages:
+
+1. **Planning for Openness**: This initial stage lays the foundation. It involves understanding the why, what, and for whom you are creating the materials. It's about aligning your objectives with the needs of your audience and considering the practicalities involved. Information on this stage will be presented in this chapter. 
+
+2. **Creating Content**: Once the groundwork is established, the focus shifts to the content. This stage is dedicated to crafting high-quality, accessible, and engaging materials. It encompasses not just the creation, but also the considerations of format, adaptability, and inclusivity. In @sec-creating_content more details on this stage can be found. 
+
+3. **Launch and Implementation**: Here, the prepared materials are introduced to the world. This phase involves selecting the right platform, ensuring easy access for your target audience, and setting up mechanisms for feedback and interaction. For this, you need to work with the right resources, details on which can be found in @sec-resources. 
+
+4. **Leveraging Benefits**: The final stage revolves around the post-launch period. It's about amplifying the advantages of open materials, such as promoting educational equity, sharing your work with a broader audience, and fostering community collaboration. Moreover, it emphasizes the importance of continuous improvement based on feedback and evolving educational trends. See @sec-impact for more information. 
+
+For each of these stages, we will delve into specific phases, breaking them down to offer a comprehensive understanding. For every phase, actionable steps will be outlined to guide you seamlessly through the process of starting open prospectively.
+
+Prepare to embark on a fulfilling journey that not only enhances educational access but also fosters a culture of collaboration and continuous learning.
 
 <!-- 1. Planning for Openness from the Start -->
 
 <!-- - The importance of setting clear goals and understanding your audience. -->
 
-#### Scoping
+#### Planning for Openness
+
+##### Scoping
 
 When embarking on a journey to create open educational materials, having a clear sense of direction is crucial. This starts with setting clear goals for your open education project. What do you hope to achieve by making your educational materials open? Is it to increase (free) access to quality education, promote collaboration among learners, or adapt to diverse learning needs and styles? Having a clear understanding of your goals will guide your decisions throughout the project and help you measure your success. 
 
@@ -90,7 +106,42 @@ Now that you thought about your goals and target audience, the next step is choo
 - Evaluation Metrics: How will you measure the success of your open education initiative? While some metrics (like the number of users) are quantitative, others might be qualitative, like feedback or testimonials.
 - Challenges & Barriers: Anticipate potential challenges. For example, will there be resistance from some educators or learners? What about technical challenges?
 
-#### Practicalities
+Does it all feel like a bit much to keep track of? Don't worry, in @fig-planning_for_openness0 you can find back the steps that have been described. Additionally, the figure will be updated after each relevant section such that, step by step, the sequence of actions to create open educational materials will be mapped. 
+
+
+
+```{mermaid}
+%%| fig-cap: Mapping the actions that need to be taken to create open educational materials prospectively. Here the actions for the scoping phase in the planning stage are added to this map. 
+%%| label: fig-planning_for_openness0
+
+timeline
+  title Starting Open Prospectively
+  section Planning for Openness
+    Scoping : Goals Setting
+           : Understanding Audience
+           : Format Selection
+           : Platform Consideration
+           : Resource Assessment
+           : Stakeholder Buy-in
+           : Evaluation Metrics
+           : Anticipate Challenges
+    ... : ...
+  section Creating content
+    ... : ...
+    ... : ...
+  section Launch and Implementation
+    ... : ...
+    ... : ...
+  section Leveraging Benefits
+    ... : ...
+    ... : ...
+
+                      
+```
+
+
+
+##### Practicalities
 
 ideas:
 
