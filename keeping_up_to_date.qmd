@@ -1,2 +1,5 @@
 # Keeing it up-to-date
 
+- opening issues
+- updating only when you run the course
+- do you have versions (e.g. version 2023, 2024 or v1.0, v2.3 etc.)

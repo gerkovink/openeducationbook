@@ -1,0 +1,56 @@
+# Creating Content
+
+
+
+
+### Starting Open Prospectively
+
+Creating Content with Open Principles in Mind
+
+- Emphasizing accessibility and inclusivity in your content creation.
+- Using open and transparent methods in your content creation process.
+  - link towards chapter 5 resources
+- Ensuring your content is adaptable and modifiable to suit different needs.
+  - link to chapter 4 keeping it up to date
+  - topics such as, store raw files, not the resulting pdfs for instance. 
+- Open Bonus: Fostering collaboration – how to design content that encourages participation.
+
+
+Leveraging the Benefits
+
+- Improving educational equity by making high-quality resources accessible to all.
+- Enhancing the learning experience by enabling learners to interact with and adapt the resources.
+  - link to chapter 5 resources, also make sure issues can be reported.
+- Share your work: Gaining recognition and impact in the educational community.
+- Enriching your content and staying up-to-date through continuous community contributions.
+
+
+
+```{mermaid}
+%%| fig-cap: Note this figure is not yet ready and just here as an idea to put a sequence of actions as an overview.
+%%| label: fig-planning_for_openness2
+timeline
+  title Starting Open Prospectively
+  section Planning for Openness
+    Scoping : Goals Setting
+           : Understanding Audience
+           : Format Selection
+           : Platform Consideration
+           : Resource Assessment
+           : Stakeholder Buy-in
+           : Evaluation Metrics
+           : Anticipate Challenges
+    Practicalities : Determine suitable format
+                   : Choose a platform
+                   : Licencing
+  section Creating content
+    Considerations : accessibility
+                   : updating and maintanance
+    Leveraging benefits : Improving educational equity
+                        : Share your work
+    
+    
+```
+
+
+### Making it Open Retrospectively
