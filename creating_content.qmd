@@ -53,4 +53,88 @@ timeline
 ```
 
 
+```{mermaid}
+%%| fig-cap: Note this figure is not yet ready and just here as an idea to put a sequence of actions as an overview.
+%%| label: fig-planning_for_openness3
+
+timeline
+  title Starting Open Prospectively
+  section Planning for Openness
+    Scoping : Goals Setting
+           : Understanding Audience
+           : Format Selection
+           : Platform Consideration
+           : Resource Assessment
+           : Stakeholder Buy-in
+           : Evaluation Metrics
+           : Anticipate Challenges
+    Practicalities : Determine suitable format
+                   : Choose a platform
+                   : Licencing
+  section Creating content
+    Design and Development : Curriculum Mapping
+                           : Integrate Open Principles
+                           : Content Creation Tools
+                           : Incorporating Interactive Elements
+    Quality Assurance and Review : Peer Review
+                                : Accessibility Checks
+                                : Iterative Testing
+  section Launch and Implementation
+    Promotion and Dissemination : Marketing Strategies
+                                : Community Building
+    Ongoing Support : Updating Content
+                    : Address Feedback
+                    : Navigate Technological Changes
+  section Leveraging Benefits
+    Maximizing Impact : Track Usage Data
+                      : Celebrate Successes
+                      : Foster Collaborative Community
+    Reflection : Evaluate Achievements
+               : Lessons Learned
+               : Future Roadmaps
+
+                      
+```
+
+
 ### Making it Open Retrospectively
+
+
+```{mermaid}
+%%| fig-cap: Note this figure is not yet ready and just here as an idea to put a sequence of actions as an overview.
+%%| label: fig-making_it_open2
+
+timeline
+  title Opening Up Existing Educational Materials
+  section Assessment and Preparation
+    Review Existing Content : Identify Current Materials
+                            : Evaluate Quality and Relevance
+                            : Understand Licensing 
+                            : Review Current Licenses
+                            : Consider Open Licensing Options
+                            : Identify Stakeholders 
+                            : Initial Accessibility Check
+                            : Decide what can be open
+  section Revision and Adaptation
+    Content Revision : Update Outdated Content
+                     : Incorporate Feedback
+                     : Convert to Open Formats
+    Licensing : Apply Suitable Open Licenses
+              : Address Third-party Content
+  section Publication and Promotion
+    Choose a Hosting Platform : Select Suitable Platform
+                              : Identify Platform Limitations
+                              : Ensure Material Compatibility
+                              : Migrate Materials
+    Community Engagement : Promote to Target Audience
+                          : Engage with Open Education Community
+  section Maintenance and Growth
+    Regular Review : Periodic Content Checks
+                   : Address Community Feedback 
+                   : Engage New Contributors
+                   : Explore New Educational Techniques
+    Continuous Learning : Track Usage and Impact
+                        : Adjust Based on Evolving Needs
+
+```
+
