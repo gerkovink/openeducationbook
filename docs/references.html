@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.90">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -109,7 +109,7 @@ div.csl-indent {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Open Education Book</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/gerkovink/openeducationbook" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/gerkovink/openeducationbook" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
     </div>
       </div>
@@ -241,26 +241,85 @@ div.csl-indent {
 Brunner, JS. 1966. <span>“The Act of Discovery Harvard Education
 Review.”</span>
 </div>
+<div id="ref-cronin2017openness" class="csl-entry" role="listitem">
+Cronin, Catherine. 2017. <span>“Openness and Praxis: Exploring the Use
+of Open Educational Practices in Higher Education.”</span>
+<em>International Review of Research in Open and Distributed
+Learning</em> 18 (5): 15–34.
+</div>
+<div id="ref-cummings2009lazy" class="csl-entry" role="listitem">
+Cummings, Robert E. 2009. <em>Lazy Virtues: Teaching Writing in the Age
+of Wikipedia</em>. Vanderbilt University Press.
+</div>
+<div id="ref-feldstein2012open" class="csl-entry" role="listitem">
+Feldstein DPS, Andrew P, Mirta Martin, Amy Hudson, Kiara Warren, John
+Hilton III, David Wiley, et al. 2012. <span>“Open Textbooks and
+Increased Student Access and Outcomes.”</span> <em>European Journal of
+Open, Distance and E-Learning</em>.
+</div>
+<div id="ref-hegarty2015attributes" class="csl-entry" role="listitem">
+Hegarty, Bronwyn. 2015. <span>“Attributes of Open Pedagogy: A Model for
+Using Open Educational Resources.”</span> <em>Educational
+Technology</em>, 3–13.
+</div>
+<div id="ref-hilton2016open" class="csl-entry" role="listitem">
+Hilton, John. 2016. <span>“Open Educational Resources and College
+Textbook Choices: A Review of Research on Efficacy and
+Perceptions.”</span> <em>Educational Technology Research and
+Development</em> 64: 573–90.
+</div>
+<div id="ref-lambert2018changing" class="csl-entry" role="listitem">
+Lambert, Sarah Roslyn. 2018. <span>“Changing Our (Dis) Course: A
+Distinctive Social Justice Aligned Definition of Open Education.”</span>
+<em>Journal of Learning for Development</em> 5 (3).
+</div>
+<div id="ref-NAP11153" class="csl-entry" role="listitem">
+National Academy of Sciences and National Academy of Engineering and
+Institute of Medicine. 2005. <em>Facilitating Interdisciplinary
+Research</em>. Washington, DC: The National Academies Press. <a href="https://doi.org/10.17226/11153">https://doi.org/10.17226/11153</a>.
+</div>
+<div id="ref-robinson2014impact" class="csl-entry" role="listitem">
+Robinson, T Jared, Lane Fischer, David Wiley, and John Hilton III. 2014.
+<span>“The Impact of Open Textbooks on Secondary Science Learning
+Outcomes.”</span> <em>Educational Researcher</em> 43 (7): 341–51.
+</div>
 <div id="ref-schiltz2018science" class="csl-entry" role="listitem">
 Schiltz, Marc. 2018. <span>“Science Without Publication Paywalls:
 cOAlition s for the Realisation of Full and Immediate Open
 Access.”</span> <em>PLoS Medicine</em> 15 (9): e1002663.
 </div>
-<div id="ref-NAP11153" class="csl-entry" role="listitem">
-Sciences, National Academy of, National Academy of Engineering, and
-Institute of Medicine. 2005. <em>Facilitating Interdisciplinary
-Research</em>. Washington, DC: The National Academies Press. <a href="https://doi.org/10.17226/11153">https://doi.org/10.17226/11153</a>.
+<div id="ref-seaman2018freeing" class="csl-entry" role="listitem">
+Seaman, Julia E, and Jeff Seaman. 2018. <span>“Freeing the Textbook:
+Educational Resources in US.”</span> <em>Higher Education</em> 2018.
+</div>
+<div id="ref-united2013college" class="csl-entry" role="listitem">
+United States Government Accountability Office. 2013. <span>“College
+Textbooks: Students Have Greater Access to Textbook Information.”</span>
+<em>Report to Congressional Committees</em>.
+</div>
+<div id="ref-wiley2014open" class="csl-entry" role="listitem">
+Wiley, David, TJ Bliss, and Mary McEwen. 2014. <span>“Open Educational
+Resources: A Review of the Literature.”</span> <em>Handbook of Research
+on Educational Communications and Technology</em>, 781–89.
 </div>
 <div id="ref-wiley2018defining" class="csl-entry" role="listitem">
-Wiley, David, and John Levi Hilton. 2018. <span>“Defining OER-Enabled
-Pedagogy.”</span> <em>The International Review of Research in Open and
-Distributed Learning</em> 19 (4).
+Wiley, David, and John Levi Hilton III. 2018. <span>“Defining
+OER-Enabled Pedagogy.”</span> <em>The International Review of Research
+in Open and Distributed Learning</em> 19 (4).
 </div>
 </div>
 
 
 
 </main> <!-- /main -->
+<script>
+var custom_title = document.querySelectorAll('.custom .theorem-title');
+
+for (let i = 0; i < custom_title.length; i++ ) {
+   var mod_name = custom_title[i].innerHTML;
+   custom_title[i].innerHTML = mod_title.replace(/\s*\(.*\)\s*/g, "");
+};
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -340,10 +399,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -353,8 +411,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -367,6 +434,61 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      try { hash = new URL(url).hash; } catch {}
+      const id = hash.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        try {
+          const html = processXRef(id, note);
+          instance.setContent(html);
+        } finally {
+          instance.enable();
+          instance.show();
+        }
+      } else {
+        // See if we can fetch this
+        fetch(url.split('#')[0])
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.getElementById(id);
+          console.log(htmlDoc.body.innerHTML);
+          if (note !== null) {
+            const html = processXRef(id, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;

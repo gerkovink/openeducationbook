@@ -4,12 +4,9 @@ Congratulations on making it this far! Your interest in open educational materia
 
 This chapter is an important waypoint in your open education journey. You've learned about what open education entails in @sec-open_education, and now, you might be wondering how to practically apply it in your own context. We've designed this chapter to guide you through the first steps in that process.
 
-We begin by discussing the choice between making educational materials open prospectively or retrospectively. Both these approaches offer unique challenges and opportunities. Although prospective design of open educational materials will be easier in practice. Understanding the differences and challenges can help you make informed decisions when designing or adapting your resources.
+We begin by discussing the choice between making educational materials open prospectively or retrospectively. Both these approaches offer unique challenges and opportunities. Although prospective design of open educational materials will be easier in practice. Understanding the differences and challenges can help you make informed decisions when designing or adapting your resources. In this chapter we will take the first steps in the process of starting to create new open educational materials or adapting existing materials to make them open. We start building practical checklists to help you navigate this process.
 
-Next, we delve into the legalities associated with open education, focusing on licensing. This can often seem daunting, but it's a crucial aspect to consider. We'll dissect complex terms like Intellectual Property, Copyright, and Public Domain, making them more approachable. We'll also look at the role of Creative Commons licenses, particularly cc-by and cc-by-sa, in facilitating the sharing and usage of open educational materials.
-
-Finally, we'll recap the steps to starting an open education initiative, providing a practical checklist to help you navigate this process. This will include tips on identifying your goals and audience, selecting content and format, planning for accessibility, and fostering a spirit of community collaboration.
-
+Finally, we delve into the legalities associated with open education, focusing on licensing. This can often seem daunting, but it's a crucial aspect to consider. We'll dissect complex terms like Intellectual Property, Copyright, and Public Domain, making them more approachable. We'll also look at the role of Creative Commons licenses, particularly cc-by and cc-by-sa, in facilitating the sharing and usage of open educational materials.
 
 ## Making it open: Prospective or Retrospective
 
@@ -23,7 +20,7 @@ The decision between these two approaches is not a binary one. A successful open
 
 Remember, the ultimate goal is to improve the accessibility and adaptability of educational resources. Whether you achieve this by opening existing materials or designing new ones with openness in mind will depend on your unique circumstances, resources, and goals. Let's explore these two approaches in greater detail. 
 
-### Starting Open Prospectively
+## Starting Open Prospectively
 
 Embarking on the journey of creating open educational materials is a rewarding endeavor, but like all significant initiatives, it requires structured planning and execution. This process is delineated into four pivotal stages:
 
@@ -43,15 +40,25 @@ Prepare to embark on a fulfilling journey that not only enhances educational acc
 
 <!-- - The importance of setting clear goals and understanding your audience. -->
 
-#### Planning for Openness
+### Planning for Openness: Scoping
 
-##### Scoping
+When starting to think about creating open educational materials, scoping is a first foundational step. This section will guide you in defining your objectives and gaining insights into your learners' needs, ensuring that your open educational materials will be both purposeful and effectively tailored.
 
-When embarking on a journey to create open educational materials, having a clear sense of direction is crucial. This starts with setting clear goals for your open education project. What do you hope to achieve by making your educational materials open? Is it to increase (free) access to quality education, promote collaboration among learners, or adapt to diverse learning needs and styles? Having a clear understanding of your goals will guide your decisions throughout the project and help you measure your success. 
+**Setting clear goals** and having a clear sense of direction is crucial when embarking on a journey to create open educational materials. What do you hope to achieve by making your educational materials open? Is it to increase (free) access to quality education, promote collaboration among learners, or adapt to diverse learning needs and styles? Having a clear understanding of your goals will guide your decisions throughout the project and help you measure your success. 
 
-At the same time, you should also seek to understand your audience, as this will heavily influence the design and presentation of your open educational materials. Who are your learners? What are their learning needs and preferences? How tech-savvy are they? What languages do they speak? Do they have specific accessibility needs? An understanding of your audience will ensure that your open educational materials are relevant, useful, and accessible to those who need them.
+**Understanding your audience** will heavily influence the design and presentation of your open educational materials. Who are your learners? What are their learning needs and preferences? How tech-savvy are they? What languages do they speak? Do they have specific accessibility needs? An understanding of your audience will ensure that your open educational materials are relevant, useful, and accessible to those who need them.
 
-Setting clear goals and understanding your audience might require some research and reflection, but it's worth the effort. These two aspects form the foundation upon which successful open education projects are built. In this section we help you to clarify your goals by means of asking you scoping questions. They ensure that your project stays focused, meets learners' needs, and achieves its intended impact. So before you delve into the details of creating open educational materials, take some time to outline your goals and understand your audience, @tbl-scoping_questions1 can help you. It's your first step towards a successful open education project.
+Setting clear goals and understanding your audience might require some research and reflection, but it's worth the effort. These two aspects form the foundation upon which successful open education projects are built. In this section we help you to clarify your goals by means of asking you scoping questions. They ensure that your project stays focused, meets learners' needs, and achieves its intended impact. So before you delve into the details of creating open educational materials, take some time to outline your goals and understand your audience, [Exercise @exm-scoping_questions1] can help you. It's your first step towards a successful open education project.
+
+
+<!-- :::: {.callout-note} -->
+<!-- ::: {#exm-1 .custombox} [Exercise @exm-1]--> 
+<!-- options to customize boxes with numbering -->
+<!-- https://stackoverflow.com/questions/73288564/is-it-possible-in-quarto-to-create-custom-cross-references-to-callout-blocks -->
+
+:::: {.callout-note icon=false appearance=simple}
+::: {#exm-scoping_questions1 .custom}
+# Scoping questions for goals and target audience
 
 | Questions to Consider | Your Answers |
 | --- | --- |
@@ -64,12 +71,16 @@ Setting clear goals and understanding your audience might require some research 
 | Are there assignments? | |
 | Do learners need to hand-in work? Or can it done online? | |
 
-: Scoping questions for goals and target audience. {#tbl-scoping_questions1}
+:::
+::::
 
 Now that you thought about your goals and target audience, the next step is choosing the right format and platform that suits your needs. In the realm of open education, choosing the appropriate format and platform for your materials is a decision of paramount importance. This choice influences how accessible, adaptable, and collaborative your resources will be.
 
-**Format** pertains to the type of file or medium you'll use to present your content. For instance, while a PDF might be universally readable, it's not as editable as a Markdown or an Office document. Likewise, video materials may be engaging, but they might pose accessibility challenges without accompanying transcripts. @tbl-scoping_questions2 is meant to help you think though your choices. You can fill it out for each of your educational materials and start considering if you are using the right formats. 
+**Format selection** pertains to the type of file or medium you'll use to present your content. For instance, while a PDF might be universally readable, it's not as editable as a Markdown or an Office document. Likewise, video materials may be engaging, but they might pose accessibility challenges without accompanying transcripts. [Exercise @exm-scoping_questions2] is meant to help you think though your choices. You can fill it out for each of your educational materials and start considering if you are using the right formats. 
 
+:::: {.callout-note icon=false appearance=simple}
+::: {#exm-scoping_questions2 .custom}
+# Considerations for Choosing Format and Platform
 
 | Questions to Consider                                      | Your Answers |
 | --- | --- |
@@ -81,9 +92,17 @@ Now that you thought about your goals and target audience, the next step is choo
 | Do the materials need to be editable?  |  |
 | What file formats will you be sharing information in? (e.g., PDF, Powerpoint, Markdown, Jupyter Notebook) Are these formats able to handle the your goals above? |  |
 
-: Considerations for Choosing Format and Platform. {#tbl-scoping_questions2}
 
-**Platform**, on the other hand, is about where and how you host and share your content. The platform dictates how learners access your materials, how they interact with them, and how they collaborate or contribute. While we'll dive deeper into concrete options for platforms in @sec-resources, it's essential to reflect on a few questions when starting to think about designing open materials. A well-chosen format and platform can enhance the openness, reach, and impact of your educational materials, ensuring they resonate with and benefit your intended audience. But how far can, and do you want, to go. For now, we will leave you with a few questions to consider in @tbl-scoping_questions3
+:::
+::::
+
+
+**Platform selection**, on the other hand, is about where and how you host and share your content. The platform dictates how learners access your materials, how they interact with them, and how they collaborate or contribute. While we'll dive deeper into concrete options for platforms in @sec-resources, it's essential to reflect on a few questions when starting to think about designing open materials. A well-chosen format and platform can enhance the openness, reach, and impact of your educational materials, ensuring they resonate with and benefit your intended audience. But how far can, and do you want, to go. For now, we will leave you with a few questions to consider in [Exercise @exm-scoping_questions3].
+
+
+:::: {.callout-note icon=false appearance=simple}
+::: {#exm-scoping_questions3 .custom}
+# Platform Choice Considerations
 
 | Questions to Consider                                                      | Your Answers |
 | --- | --- |
@@ -97,14 +116,32 @@ Now that you thought about your goals and target audience, the next step is choo
 | What kind of analytics or feedback mechanisms are you seeking?             |  |
 | Would you like to see contributions in group assignments?                  |  |
 
-: Platform Choice Considerations. {#tbl-scoping_questions3}
+:::
+::::
+
+**Stakeholder management** play a pivotal role in the success of any open education initiative. Their buy-in, or the extent to which they support and are committed to the project, can significantly influence its implementation and sustainability. When considering an open education initiative, it's essential to ensure that all key stakeholders, whether they be faculty, administration, and potentially students, are not only informed but also involved in the design process. Their unique perspectives, concerns, and insights can provide valuable feedback that can shape the direction and quality of the project. Additionally, their support can help to ensure longevity and sustainability of the project. 
+
+However, along with the advantages of involving stakeholders comes the task of anticipating and navigating potential challenges and barriers. Resistance might arise from educators who are unfamiliar with or skeptical about the benefits of open education. Some learners might prefer traditional learning materials or have concerns about teaching in the open. By creating open educational materials, you put yourself out there and become vulnerable to criticism. You might receive feedback about the quality and relevance of your materials. Try to convince yourself and others that this is desirable, because in the long-run it will improve the quality of your materials. To help you with stakeholder management, you can use [Exercise @exm-stakeholder_questions] to consider each group of stakeholders and strategize on how best to involve them in your open education journey. Additionally, @sec-benefits and @sec-perception-of-threat provide some overviews of (perceived) augments for and against open education to help you in discussing open education with stakeholders.
 
 
+:::: {.callout-note icon=false appearance=simple}
+::: {#exm-stakeholder_questions .custom}
+# Stakeholder Engagement and Concerns Evaluation
 
-- Resource and Time Commitment: For any open education initiative, understanding the resources at your disposal is critical. This includes time, budget, technical expertise, and other support mechanisms.
-- Stakeholder Buy-in: Is everyone on board with the open education initiative? If there are multiple stakeholders (faculty, administration, etc.), have their concerns and inputs been considered?
-- Evaluation Metrics: How will you measure the success of your open education initiative? While some metrics (like the number of users) are quantitative, others might be qualitative, like feedback or testimonials.
-- Challenges & Barriers: Anticipate potential challenges. For example, will there be resistance from some educators or learners? What about technical challenges?
+| Questions for Stakeholder Consideration                             | Your Answers       |
+|---------------------------------------------------------------------|--------------------|
+| Who are the relevant stakeholders for your open education initiative? |                    |
+| Which stakeholders might view the initiative positively? Why?        |                    |
+| Which stakeholders might view the initiative negatively? Why?        |                    |
+| What specific concerns can you address or alleviate?                 |                    |
+| What concerns might remain even after addressing them?               |                    |
+| How do you plan to address or mitigate these remaining concerns?     |                    |
+
+:::
+::::
+
+
+**Evaluation of success** is important to consider. Before we turn to the practicalities in our planning stage, we should determine when we would consider the first version of our open educational initiative a success. Success can be measured in various ways, and it's crucial to have clear metrics in place from the outset. Quantitative metrics, such as the number of users or downloads, can provide tangible evidence of the reach and uptake of your materials. For example, achieving a certain number of users within the first month of launch might be a benchmark for success, but perhaps not relevant if you develop the materials for a course with a fixed number of students. Qualitative measures can shed light on the actual impact and effectiveness of your materials. Feedback from users, testimonials, and direct observations can offer insights into how well the materials are meeting the needs of the learners. Did they find the resources engaging? Were the materials able to cater to diverse learning needs? These qualitative insights can guide future iterations, ensuring that the open educational materials continue to evolve and improve based on real-world feedback. Be gentle for yourself and don't expect to get everything right in the first iteration. But do consider what if important to you and your stakeholders and how you can measure that. [Exercise @exm-evaluation_question] can help you to ask what you consider important, [Example @exm-evaluation_question2] provides examples of how you can measure or investigate success.
 
 Does it all feel like a bit much to keep track of? Don't worry, in @fig-planning_for_openness0 you can find back the steps that have been described. Additionally, the figure will be updated after each relevant section such that, step by step, the sequence of actions to create open educational materials will be mapped. 
 
@@ -117,14 +154,12 @@ Does it all feel like a bit much to keep track of? Don't worry, in @fig-planning
 timeline
   title Starting Open Prospectively
   section Planning for Openness
-    Scoping : Goals Setting
-           : Understanding Audience
+    Scoping : Setting clear goals
+           : Understanding your audience
            : Format Selection
-           : Platform Consideration
-           : Resource Assessment
-           : Stakeholder Buy-in
-           : Evaluation Metrics
-           : Anticipate Challenges
+           : Platform selection
+           : Stakeholder management
+           : Evaluation of success
     ... : ...
   section Creating content
     ... : ...
@@ -140,49 +175,103 @@ timeline
 ```
 
 
+:::: {.callout-note icon=false appearance=simple}
+::: {#exm-evaluation_question .custom}
+# Try to answer what is important to you
 
-##### Practicalities
+| Evaluation Criteria                               | Your Definition of Success                           |
+|--------------------------------------------------|-----------------------------------------------------|
+| I consider the implementation of the open educational materials a success when ... |    ...                                                 |
+| I consider the implementation of the open educational materials a success when ... |    ...                                                 |
+
+:::
+::::
+
+
+:::: {.callout-note icon=false appearance=simple}
+::: {#exm-evaluation_question2}
+# How you could define your success
+
+| Key Performance Indicator (KPI)                   | How to Measure the KPI                                              | Your Definition of Success                       |
+|---------------------------------------------------|---------------------------------------------------------------------|--------------------------------------------------|
+| **Number of Users/Downloads**                     | Track downloads or registrations on the platform hosting the material | 1,000 users within the first three months        |
+| **Course Completion Rate**                        | Percentage of users who complete the entire material                 | At least 70% of users complete the materials     |
+| **User Engagement**                               | Average time spent, or interactions (like clicks) per session        | Users engage for an average of 30 minutes/session |
+| **Diversity of User Base**                        | Track user demographics or geographic locations                      | Users from 25 different countries                 |
+| **Feedback Score**                                | Aggregate score from user feedback forms                             | Average feedback score of 4.5/5                  |
+| **Positive Testimonials**                         | Collect and categorize user testimonials                             | 15 in-depth positive testimonials                  |
+| **Appreciation of the course** | Interviews with course participants | 70% of the participant interviews are largely positive | 
+| **Collaborative Contributions**                   | Count of edits, additions, or collaborative actions on the material  | 50 community-contributed updates or edits         |
+| **Integration in Learning Settings**              | Track the number of institutions or groups formally adopting the material | Adopted by 3 educational institutions            |
+| **Quality of Learning Experience**   | Conduct focus group discussions or in-depth interviews               | Users report a richer understanding of the topic  |
+| **Innovative Use Cases**             | Document and analyze instances where materials are used in unexpected ways | 5 documented innovative applications of the material |
+
+:::
+::::
+
+<!-- This table blends quantitative metrics, which can be easily counted or measured, with qualitative insights, which give a richer, deeper understanding of the impact and value of the open educational materials. -->
+
+
+
+
+
+
+
+
+### Planning for Openness: Practicalities
+
+After laying a solid foundation through scoping, it's time to move into the practicalities of initiating an open education project. Every educational venture, open or otherwise, comes with its unique set of challenges. Open education, however, introduces its own nuances. From understanding the resources you need to committing the right amount of time, from developing a seamless content creation workflow to addressing copyright concerns, there's a lot to consider. This section aims to provide a guide on how to approach these facets, ensuring your open educational materials not only reach their intended audience but also are able to be updated and can stay relevant. 
+
+The heart of an open education initiative is not just the content, but also the entire ecosystem around it. This ecosystem includes the tools you use, the community you engage, the licenses under which you operate, and the feedback loops you establish. Each of these elements requires careful thought and planning. In this section, we'll delve deep into each of these aspects, offering both advice and actionable steps. Whether it's ensuring every learner can access your materials regardless of their abilities, or fostering a vibrant community that actively uses and contributes to your resources, our goal is to prepare you for every eventuality. So, let's embark on this detailed exploration of the practicalities of open education.
+
+**Resource and Time Commitment** <br>
+Preparation is extremely important. Creating new materials is a timely process, and it's important to be realistic about the time and resources you have available. Although in @sec-benefits we mention that OERs can reduce cost for students, creating the materials can be costly. We need to understand the resources we have available and how we can use them effectively. 
+
+Every initiative, regardless of its scale, requires some form of financial investment. It could be for the design and hosting of a platform, compensation for contributors, investment in technology, or promotion of the materials. Start by estimating a budget for each phase of your project. Consider all potential costs and try to anticipate unexpected expenses. Always allocate a contingency fund, as unexpected costs can and will arise. Be clear about the time you and your team can dedicate to the project as a result of the budget. This includes content creation, reviewing, updating, community engagement, and addressing feedback. Allocate sufficient time for each phase, keeping in mind that some phases may overlap or take longer than anticipated.
+
+::: {.callout-note}
+# Example of a budget
+Do we have one lying around that we can share? Or create a ficitve one. 
+:::
+
+
+
+**Platform and Content** <br>
+
+Deciding on platform and content cannot fully be seen as independent from each other. If you decide to use certain content types, e.g. videos, PowerPoint, PDFs, you will need to consider the platform that can host these content types. If you decide to use a certain platform, you will need to consider the content types that can be hosted on the platform you choose. Do these match? Can we make it work? If not, you will need to reconsider either the platform or the content types. @sec-resources helps you with some practical options to choose your resources and @sec-example_courses shows examples of how others have done it. There will be many more options out there that we do not describe, so feel free to explore and find what works for you. The planning stage is however the stage to make these decisions. We will guide you through the process of making these decisions.
+
+What are some of the considerations you need to make when choosing a platform and content types?
+
+Content Creation Workflow
+- quality control, do you have collaborators? Do you collaborate online on the platform or do you create the content offline and then upload it to the platform?
+Detail the steps from drafting, reviewing, editing, to publishing. Discuss tools that can help streamline this process.
+
+Distribution & Outreach: Once materials are created, how will they be distributed? Will they be hosted on a specific platform, sent out via email, shared on social media? Ensuring Accessibility: Tools, tips, and best practices to make sure all materials are accessible to a diverse audience. Training & Upskilling needed? Especially if the initiative introduces new tools/platforms, consider how you will ensure educators and students are comfortable using them.
+ 
+Engagement. Feedback & Iteration: Processes to collect feedback and how it will be used to improve subsequent versions of the educational materials. Do you want to embrace the Holistic approach to open education as described in @sec-holistic_approach.  How to build and foster an active community around your resources. Consider discussing forums, feedback mechanisms, and other community-building tools.
+
+
+
+
+**Licencing** <br>
+Picking a licence is not something most people will enjoy doing, but it is important to do so. It has consequences for the way you can use the material in future, and the way others can use it. It is also important to be consistent in the way you license your material. If you use different licenses for different parts of your material, it will be difficult for others to use it. Licencing is slightly complicated and we devote an entire section to it (@sec-licensing). So why do we name it here if there is another section giving you more information? Because it is one of the most important practical steps if you plan for open educational materials. What do you want others to be allowed to do with your materials? Do you need credits if others use it? Can they change it? Can they use it commercially? These are all questions that you need to answer before you can choose a license. Again, @sec-licensing will provide more guidance on this issue. But we list it in the tasks for planning so that each time you go through the cycle of starting to plan for open educational materials and you use this book, you will be reminded in the planning stage. 
+
+
+
 
 ideas:
 
-- Content Creation Workflow: Detail the steps from drafting, reviewing, editing, to publishing. Discuss tools that can help streamline this process.
-- Licensing & Copyright: Expand on ensuring your materials adhere to open licensing standards. Delve deeper into Creative Commons licenses and their implications.
-- Ensuring Accessibility: Tools, tips, and best practices to make sure all materials are accessible to a diverse audience.
-- Community Engagement: How to build and foster an active community around your resources. Consider discussing forums, feedback mechanisms, and other community-building tools.
-- Training & Upskilling: Especially if the initiative introduces new tools/platforms, consider how you will ensure educators and students are comfortable using them.
-- Updating & Maintenance: A plan to keep the resources current. Discuss how often materials will be updated and who will be responsible.
-- Distribution & Outreach: Once materials are created, how will they be distributed? Will they be hosted on a specific platform, sent out via email, shared on social media?
-- Feedback & Iteration: Processes to collect feedback and how it will be used to improve subsequent versions of the educational materials.
+
+- Licensing & Copyright: 
+- 
+
+- 
+- 
 
 
 
 
-```{mermaid}
-%%| fig-cap: Note this figure is not yet ready and just here as an idea to put a sequence of actions as an overview.
-%%| label: fig-planning_for_openness
-timeline
-  title Starting Open Prospectively
-  section Planning for Openness
-    Scoping : Goals Setting
-           : Understanding Audience
-           : Format Selection
-           : Platform Consideration
-           : Resource Assessment
-           : Stakeholder Buy-in
-           : Evaluation Metrics
-           : Anticipate Challenges
-    Practicalities : Determine suitable format
-                   : Choose a platform
-                   : Licencing
-  section Creating content
-    
-```
-
-See @fig-planning_for_openness for a quick overview of the steps described in this section.
-
-
-
-### Making it Open Retrospectively
+## Making it Open Retrospectively
 
 1. Evaluating Existing Resources
 2. Transforming and Adapting Content
@@ -208,7 +297,7 @@ See @fig-making_it_open for a quick overview of the steps described in this sect
 
 
 
-## Licensing: The Legalities of Open Education
+## Licensing: The Legalities of Open Education {#sec-licensing}
 
 ### Intellectual Property, Copyright, and Public Domain
 
