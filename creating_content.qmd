@@ -32,14 +32,12 @@ Leveraging the Benefits
 timeline
   title Starting Open Prospectively
   section Planning for Openness
-    Scoping : Goals Setting
-           : Understanding Audience
+    Scoping : Setting clear goals
+           : Understanding your audience
            : Format Selection
-           : Platform Consideration
-           : Resource Assessment
-           : Stakeholder Buy-in
-           : Evaluation Metrics
-           : Anticipate Challenges
+           : Platform selection
+           : Stakeholder management
+           : Evaluation of success
     Practicalities : Determine suitable format
                    : Choose a platform
                    : Licencing
@@ -60,14 +58,12 @@ timeline
 timeline
   title Starting Open Prospectively
   section Planning for Openness
-    Scoping : Goals Setting
-           : Understanding Audience
+    Scoping : Setting clear goals
+           : Understanding your audience
            : Format Selection
-           : Platform Consideration
-           : Resource Assessment
-           : Stakeholder Buy-in
-           : Evaluation Metrics
-           : Anticipate Challenges
+           : Platform selection
+           : Stakeholder management
+           : Evaluation of success
     Practicalities : Determine suitable format
                    : Choose a platform
                    : Licencing

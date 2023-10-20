@@ -53,7 +53,7 @@ Interdisciplinarity is a cornerstone of both open education and open science. Op
 
 The convergence of open education and open science underscores a transformative shift towards a more open, collaborative, and accessible global knowledge ecosystem. It's a movement that transcends geographical, disciplinary, and institutional boundaries, aiming to democratize knowledge, spur innovation, and address complex challenges in a collective, inclusive manner. The above example in the box of `Plan S` exemplifies the practical implementation of these principles, paving the path towards a future where knowledge is not just a commodity but a shared, collective resource that empowers societies worldwide.
 
-## A Holistic Approach to Open Education
+## A Holistic Approach to Open Education {#sec-holistic_approach}
 Open education, in its most transformative sense, extends far beyond the provision of open access to textbooks and course materials. It represents a fundamental shift in how education is designed, delivered, and experienced. A holistic approach to open education sees it not merely as a means of content dissemination but as a dynamic ecosystem that fosters the collaborative creation, adaptation, and sharing of knowledge [@cronin2017openness].
 
 This educational paradigm champions the integration of open principles into every aspect of the educational journey. From the creation of content and curriculum to the enactment of pedagogical strategies and the assessment of learning, open education is characterized by transparency, adaptability, collaboration, and inclusivity. 
@@ -74,7 +74,7 @@ Moreover, the Wikipedia Education Program underscores the reciprocal nature of o
 
 In essence, a holistic approach to open education recognizes it as a multifaceted, dynamic process that transforms both teaching and learning. It fosters a learning culture rooted in collaboration, innovation, and the shared creation and dissemination of knowledge. The Wikipedia Education Program serves as a tangible manifestation of these principles, where learning is not just an individual pursuit but a collective, contributive, and globally impactful task.
 
-## Benefits of Open Education
+## Benefits of Open Education {#sec-benefits}
 This section will delve into some of the most pivotal advantages: cost reduction, enhanced accessibility, and the fostering of innovation.
 
 ### Cost Reduction
@@ -88,7 +88,7 @@ Beyond cost, open education amplifies accessibility in other important ways. It 
 ### Innovation
 The open nature of OERs also spawns innovation in teaching and learning. With the freedom to adapt and modify content, educators can devise novel, contextual, and engaging learning experiences that are aligned with the dynamic needs of the contemporary learner [@wiley2018defining]. Moreover, students would no longer be passive recipients of knowledge. They’re empowered to explore, interact with, and even contribute to the body of knowledge, catalyzing a more active and participatory learning process.
 
-## The Perception of Openness as a Threat
+## The Perception of Openness as a Threat {#sec-perception-of-threat}
 While the myriad benefits of open education are acknowledged globally, there persists a counter-narrative that perceives the openness of educational resources and methodologies as a threat. This perception is rooted in various concerns encompassing the quality of learning, intellectual property rights, and the financial sustainability of educational institutions. Critics argue that the unfettered access and adaptability of OERs could compromise the quality of educational content. The lack of a centralized authority or stringent regulatory framework for content creation and modification raises concerns about the accuracy, reliability, and pedagogical efficacy of OERs [@robinson2014impact].
 
 ### Intellectual Property Rights 

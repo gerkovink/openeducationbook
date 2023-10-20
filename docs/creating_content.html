@@ -263,14 +263,12 @@ ul.task-list li input[type="checkbox"] {
 <pre class="mermaid mermaid-js" data-label="fig-planning_for_openness2">timeline
   title Starting Open Prospectively
   section Planning for Openness
-    Scoping : Goals Setting
-           : Understanding Audience
+    Scoping : Setting clear goals
+           : Understanding your audience
            : Format Selection
-           : Platform Consideration
-           : Resource Assessment
-           : Stakeholder Buy-in
-           : Evaluation Metrics
-           : Anticipate Challenges
+           : Platform selection
+           : Stakeholder management
+           : Evaluation of success
     Practicalities : Determine suitable format
                    : Choose a platform
                    : Licencing
@@ -297,14 +295,12 @@ ul.task-list li input[type="checkbox"] {
 <pre class="mermaid mermaid-js" data-label="fig-planning_for_openness3">timeline
   title Starting Open Prospectively
   section Planning for Openness
-    Scoping : Goals Setting
-           : Understanding Audience
+    Scoping : Setting clear goals
+           : Understanding your audience
            : Format Selection
-           : Platform Consideration
-           : Resource Assessment
-           : Stakeholder Buy-in
-           : Evaluation Metrics
-           : Anticipate Challenges
+           : Platform selection
+           : Stakeholder management
+           : Evaluation of success
     Practicalities : Determine suitable format
                    : Choose a platform
                    : Licencing
@@ -391,6 +387,14 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+<script>
+var custom_title = document.querySelectorAll('.custom .theorem-title');
+
+for (let i = 0; i < custom_title.length; i++ ) {
+   var mod_name = custom_title[i].innerHTML;
+   custom_title[i].innerHTML = mod_title.replace(/\s*\(.*\)\s*/g, "");
+};
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
