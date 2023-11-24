@@ -1,4 +1,6 @@
-# Keeing it up-to-date
+# Updating Content {#sec-updating_content}
+
+Chapter to provide guidance on how to keep content up to date in starting open and how to update content when making it open.
 
 - opening issues
 - updating only when you run the course

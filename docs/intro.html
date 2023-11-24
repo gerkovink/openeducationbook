@@ -122,32 +122,38 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./licensing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Licensing: The Legalities of Open Education</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./where_to_start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Where do you start?</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Where do you start?</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./creating_content.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Creating Content</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Creating Content</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./keeping_up_to_date.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Keeing it up-to-date</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Keeing it up-to-date</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./resources.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Resources</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Resources</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./impact.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Generating Impact</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Generating Impact</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -162,13 +168,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./example_lecture.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">An open lecture</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">An open lecture</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./example_course.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">An open course</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">An open course</span></span></a>
   </div>
 </li>
       </ul>
@@ -218,6 +224,58 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>Because just like in any other book you will encounter a lot of abbreviations, here is a list of the most important ones.</p>
+<table class="table">
+<caption>Abbreviations used in the book and their meanings.</caption>
+<thead>
+<tr class="header">
+<th>Abbreviation</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>OER</td>
+<td>Open Educational Resources</td>
+</tr>
+<tr class="even">
+<td>MIT OCW</td>
+<td>MIT OpenCourseWare</td>
+</tr>
+<tr class="odd">
+<td>IP</td>
+<td>Intellectual Property</td>
+</tr>
+<tr class="even">
+<td>GNU GPL</td>
+<td>GNU General Public License</td>
+</tr>
+<tr class="odd">
+<td>CC</td>
+<td>Creative Commons</td>
+</tr>
+<tr class="even">
+<td>CC-BY</td>
+<td>Creative Commons Attribution</td>
+</tr>
+<tr class="odd">
+<td>CC-BY-SA</td>
+<td>Creative Commons Attribution-ShareAlike</td>
+</tr>
+<tr class="even">
+<td>CC-BY-NC-SA</td>
+<td>Creative Commons Attribution-NonCommercial-ShareAlike</td>
+</tr>
+<tr class="odd">
+<td>GNU-GFDL</td>
+<td>GNU Free Documentation License</td>
+</tr>
+</tbody>
+</table>
+<p>To make consistent:</p>
+<ul>
+<li>GitHub vs.&nbsp;github</li>
+</ul>
 <p>What we are going to cover:</p>
 <ul>
 <li>What is open education?
@@ -261,7 +319,7 @@ var custom_title = document.querySelectorAll('.custom .theorem-title');
 
 for (let i = 0; i < custom_title.length; i++ ) {
    var mod_name = custom_title[i].innerHTML;
-   custom_title[i].innerHTML = mod_title.replace(/\s*\(.*\)\s*/g, "");
+   custom_title[i].innerHTML = mod_name.replace("Example", "Exercise");
 };
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

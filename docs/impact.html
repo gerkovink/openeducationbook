@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Open Education Book - 7&nbsp; Generating Impact</title>
+<title>Open Education Book - 8&nbsp; Generating Impact</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -61,6 +61,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -74,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./impact.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Generating Impact</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./impact.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Generating Impact</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -122,32 +125,38 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./licensing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Licensing: The Legalities of Open Education</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./where_to_start.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Where do you start?</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Where do you start?</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./creating_content.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Creating Content</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Creating Content</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./keeping_up_to_date.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Keeing it up-to-date</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Keeing it up-to-date</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./resources.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Resources</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Resources</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./impact.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Generating Impact</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Generating Impact</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -162,13 +171,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./example_lecture.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">An open lecture</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">An open lecture</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./example_course.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">An open course</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">An open course</span></span></a>
   </div>
 </li>
       </ul>
@@ -200,7 +209,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#zenodo" id="toc-zenodo" class="nav-link active" data-scroll-target="#zenodo"><span class="header-section-number">7.1</span> zenodo</a></li>
+  <li><a href="#zenodo" id="toc-zenodo" class="nav-link active" data-scroll-target="#zenodo"><span class="header-section-number">8.1</span> zenodo</a></li>
+  <li><a href="#final-scheme-starting-open-prospectively" id="toc-final-scheme-starting-open-prospectively" class="nav-link" data-scroll-target="#final-scheme-starting-open-prospectively"><span class="header-section-number">8.2</span> final scheme starting open prospectively</a>
+  <ul class="collapse">
+  <li><a href="#final-scheme-making-it-open-retrospectively" id="toc-final-scheme-making-it-open-retrospectively" class="nav-link" data-scroll-target="#final-scheme-making-it-open-retrospectively"><span class="header-section-number">8.2.1</span> final scheme Making it Open Retrospectively</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/gerkovink/openeducationbook/edit/dev/impact.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/gerkovink/openeducationbook/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -209,7 +222,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-impact" class="quarto-section-identifier"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Generating Impact</span></span></h1>
+<h1 class="title"><span id="sec-impact" class="quarto-section-identifier"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Generating Impact</span></span></h1>
 </div>
 
 
@@ -228,10 +241,107 @@ ul.task-list li input[type="checkbox"] {
 <li>How do you get appreciation</li>
 <li>What is impact?</li>
 </ul>
-<section id="zenodo" class="level2" data-number="7.1">
-<h2 data-number="7.1" class="anchored" data-anchor-id="zenodo"><span class="header-section-number">7.1</span> zenodo</h2>
+<section id="zenodo" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="zenodo"><span class="header-section-number">8.1</span> zenodo</h2>
+</section>
+<section id="final-scheme-starting-open-prospectively" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="final-scheme-starting-open-prospectively"><span class="header-section-number">8.2</span> final scheme starting open prospectively</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-planning_for_openness3" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-planning_for_openness3">timeline
+  title Starting Open Prospectively
+  section Planning for Openness
+    Scoping : Setting clear goals
+           : Understanding your audience
+           : Format Selection
+           : Platform selection
+           : Stakeholder management
+           : Evaluation of success
+    Practicalities : Determine suitable format
+                   : Choose a platform
+                   : Licencing
+  section Creating content
+    Design and Development : Curriculum Mapping
+                           : Integrate Open Principles
+                           : Content Creation Tools
+                           : Incorporating Interactive Elements
+    Quality Assurance and Review : Peer Review
+                                : Accessibility Checks
+                                : Iterative Testing
+  section Launch and Implementation
+    Promotion and Dissemination : Marketing Strategies
+                                : Community Building
+    Ongoing Support : Updating Content
+                    : Address Feedback
+                    : Navigate Technological Changes
+  section Leveraging Benefits
+    Maximizing Impact : Track Usage Data
+                      : Celebrate Successes
+                      : Foster Collaborative Community
+    Reflection : Evaluate Achievements
+               : Lessons Learned
+               : Future Roadmaps
+
+                      
+</pre>
+</div>
+<figcaption class="figure-caption">Figure&nbsp;8.1: Note this figure is not yet ready and just here as an idea to put a sequence of actions as an overview.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<section id="final-scheme-making-it-open-retrospectively" class="level3" data-number="8.2.1">
+<h3 data-number="8.2.1" class="anchored" data-anchor-id="final-scheme-making-it-open-retrospectively"><span class="header-section-number">8.2.1</span> final scheme Making it Open Retrospectively</h3>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-making_it_open2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-making_it_open2">timeline
+  title Opening Up Existing Educational Materials
+  section Assessment and Preparation
+    Review Existing Content : Identify Current Materials
+                            : Evaluate Quality and Relevance
+                            : Understand Licensing 
+                            : Review Current Licenses
+                            : Consider Open Licensing Options
+                            : Identify Stakeholders 
+                            : Initial Accessibility Check
+                            : Decide what can be open
+  section Revision and Adaptation
+    Content Revision : Update Outdated Content
+                     : Incorporate Feedback
+                     : Convert to Open Formats
+    Licensing : Apply Suitable Open Licenses
+              : Address Third-party Content
+  section Publication and Promotion
+    Choose a Hosting Platform : Select Suitable Platform
+                              : Identify Platform Limitations
+                              : Ensure Material Compatibility
+                              : Migrate Materials
+    Community Engagement : Promote to Target Audience
+                          : Engage with Open Education Community
+  section Maintenance and Growth
+    Regular Review : Periodic Content Checks
+                   : Address Community Feedback 
+                   : Engage New Contributors
+                   : Explore New Educational Techniques
+    Continuous Learning : Track Usage and Impact
+                        : Adjust Based on Evolving Needs
+
+</pre>
+</div>
+<figcaption class="figure-caption">Figure&nbsp;8.2: Note this figure is not yet ready and just here as an idea to put a sequence of actions as an overview.</figcaption>
+</figure>
+</div>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -240,7 +350,7 @@ var custom_title = document.querySelectorAll('.custom .theorem-title');
 
 for (let i = 0; i < custom_title.length; i++ ) {
    var mod_name = custom_title[i].innerHTML;
-   custom_title[i].innerHTML = mod_title.replace(/\s*\(.*\)\s*/g, "");
+   custom_title[i].innerHTML = mod_name.replace("Example", "Exercise");
 };
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
@@ -542,7 +652,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./resources.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Resources</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Resources</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
