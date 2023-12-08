@@ -1,0 +1,119 @@
+# Licensing: The Legalities of Open Education {#sec-licensing}
+
+Before we dive into the practicalities of open education, it is important to understand the legal considerations that come with making content openly accessible. Because a basic knowledge is needed as a basis for any actions you might take, we will cover it first. 
+
+## Intellectual Property, Copyright, and Public Domain
+**Intellectual Property (IP)** refers to creations of the mind, such as inventions, literary and artistic works, designs, symbols, names, and images used in commerce. **Copyright** is a law that gives the owner of original work exclusive rights to its use and distribution, usually for a limited time, with the intention of enabling the creator to receive compensation for their investment in creativity. **Public Domain** refers to works whose exclusive intellectual property rights have expired, been forfeited, or are inapplicable.
+
+In the educational context, IP rights play a critical role in determining how educational content can be used, shared, and distributed. Copyrighted materials, for example, are typically restricted in distribution and use, requiring permissions or licenses to share or adapt. Public domain materials, on the other hand, are freely available for use by anyone for any purpose.
+
+Educators and institutions need to navigate these legal frameworks to utilize educational content effectively while adhering to legal and ethical standards. Understanding these terms and their implications is essential to avoid copyright infringement and promote the ethical use of resources. It is paramount
+
+::: {.callout-note}
+# Considerations for retroactively opening existing education
+Making existing educational content openly accessible retroactively can involve complex legal and ethical considerations. Below are key aspects that should be addressed:
+
+1. **Copyright Ownership:**
+   - **Evaluation:** Assess who owns the copyright to the educational materials. They could be owned by the
+   educator, the institution, or third-party contributors.
+   - **Permissions:** If the copyright is not owned by the institution or individual aiming to make the
+   materials open, permissions must be obtained from the copyright holder to change the licensing or
+   distribution terms.
+2. **Third-party Content:**
+   - **Identification:** Identify any third-party content embedded within the educational materials. This
+   could include images, text, videos, or other media.
+   - **Licensing:** Determine the licensing terms of the third-party content. Some may have restrictions on
+   reuse or distribution that could complicate making the primary educational materials open.
+3. **License Selection:**
+   - **Compatibility:** Choose a license that is compatible with the intentions for use and distribution of
+   the materials. Creative Commons licenses (see @sec-creativecommons) are often used for this purpose.
+   - **Clarity:** Be clear on the permissions, restrictions, and requirements of the selected license. Make
+   sure this information is clearly communicated to potential users of the materials.
+4. **Ethical Considerations:**
+   - **Privacy:** If the materials include contributions from students or other participants, consider
+   privacy and consent issues. It may be necessary to anonymize or remove certain content.
+   - **Quality:** Ensure that opening up the materials doesn’t compromise the quality or integrity of the
+   educational content.
+5. **Technical Aspects:**
+   - **Accessibility:** Ensure that the materials are accessible, including considerations for individuals
+   with disabilities. This could involve adding alternative text for images, ensuring website compatibility
+   with screen readers, etc.
+   - **Formats:** Consider the formats in which the materials will be made available. They should be in
+   formats that are easy to access, use, and adapt.
+6. **Community and Cultural Sensitivities:**
+   - **Respect:** Be mindful of content that might be culturally sensitive or specific to a certain
+   community. Opening content should be done respectfully and inclusively.
+
+An existing course containing copyrighted readings, lectures notes authored by the teaching team, and - perhaps - student-contributed content would need a thorough evaluation. The copyrighted readings would require permission from the copyright holders or replacements with newly developed or open-access alternatives. The lecture notes could potentially be released under a Creative Commons license if the authors agree. Any student-contributed content would require considerations for privacy and consent before being made openly accessible.
+
+Retroactively opening existing educational content is a commendable step towards open education, but it comes with its own set of complexities. Balancing legal requirements, ethical considerations, and the goal of openness requires a thorough, nuanced approach. Institutions and educators should engage in careful planning, consultation, and execution to navigate the intellectual property and copyright landscape effectively, ensuring that the opened materials are not only accessible but also legal and ethical in their availability and use.
+:::
+
+## Some terminology
+**Copyright** is a law that gives the creator of original work exclusive rights to its use and distribution, typically for a limited time, with the intention of enabling the creator to receive compensation for their creative investment. Copyright applies to a wide range of creative, intellectual, or artistic forms. These include poems, theses, plays, other literary works, movies, dances, musical compositions, audio recordings, paintings, drawings, sculptures, photographs, software, radio and television broadcasts, and industrial designs.
+
+**Copyleft** is a general method for making a program (or other work) free, and requiring all modified and extended versions of the program to be free as well. The simplest way to make a program free is to put it in the public domain, uncopyrighted. But this allows proprietary modifications: anyone can take the code, modify it and sell it as a proprietary product. To prevent this, the copyleft uses copyright law to ensure that every person who receives a copy or derived version of a work can use, modify, and also distribute both the work and derived versions of the work. Copyleft licenses (for software) require that information necessary for reproducing and modifying the work must be made available to recipients of the executable. The source code files will usually contain a copy of the license terms and acknowledge the authors.
+
+**License Compatibility** is a legal framework that allows for pieces of software with different software licenses to be distributed together. The need for such a framework arises because the different licenses can contain contradictory requirements, rendering it impossible to legally combine source code from separately-licensed software in order to create and publish a new program. License compatibility can be particularly complex with copyleft licenses, which require derivative works to be licensed under a copyleft license. The concept of license compatibility applies to combining or merging software code that is provided under two different software licenses, and can also be a significant issue when trying to combine code placed under a copyleft license with proprietary software. 
+
+An example of this complexity could be seen when trying to merge code from projects that are under different versions of the GNU General Public License (GPL). They might have requirements that are technically legal to fulfill yet practically difficult for the merged project to adhere to simultaneously. 
+
+### Examples and Practical Implications:
+
+- **Copyright**: A book author automatically having exclusive rights to their work, meaning others can't reproduce, distribute, or create derivative works without permission.
+- **Copyleft**: A software developer releasing a program under the GNU GPL, meaning anyone can use, modify, and distribute it, but any derivative work must be released under the same license.
+- **License Compatibility**: An open-source project trying to integrate code under both the Apache License and the MIT License, needing to ensure that the terms of both licenses can be satisfied simultaneously.
+
+Each of these terms plays a significant role in how intellectual property, especially software and written works, is managed, distributed, and modified in the real world. This also applies to OER. Understanding them is vital for anyone involved in creating, using, or distributing such works, to ensure legal and ethical compliance as well as widespread usability and accessibility.
+
+## Common licenses and organizations 
+
+### Creative Commons: CC-BY & CC-BY-SA {#sec-creativecommons}
+**Creative Commons (CC)** is a non-profit organization that provides free licenses and tools that copyright owners can use to allow others to share, reuse, and remix their material, legally ([Creative Commons](https://creativecommons.org/)). CC licenses are a simple way to give permissions for use of copyrighted works, fostering an accessible digital culture.
+
+Creative Commons licenses are not alternatives to traditional copyright, but rather, they work alongside it. Traditional copyright law inherently restricts the right to copy, distribute, display, and perform protected works, as well as the right to make derivative works. In contrast, Creative Commons licenses help copyright owners grant some of their rights to the public while retaining others through a variety of licensing and contract schemes. Creative Commons licenses facilitate a culture of sharing and adaptation, crucial in open education, where resources are meant to be widely distributed and adapted. 
+
+There are several important CC licenses that are commonly used in open education:
+
+- **CC-BY (Attribution)**: This license allows others to copy, distribute, display, and perform the work and derivative works based upon it, but only if they give the author or licensor the credits in the manner specified by these. This is the most flexible CC license in terms of what others can do with the works.
+
+- **CC-BY-SA (Attribution-ShareAlike)**: This license lets others remix, tweak, and build upon the work even for commercial purposes, as long as they credit the author and license their new creations under the identical terms. This license is often compared to open source software licenses.
+
+- **CC-BY-NC-SA (Attribution-NonCommercial-ShareAlike)**: This license allows others to remix, adapt, and build upon the work non-commercially, as long as they credit the author and license their new creations under the identical terms. It’s suitable for creators who want to encourage the sharing and adaptation of their works while restricting their use to non-commercial purposes.
+
+Each type of Creative Commons license provides a different level of freedom, catering to a variety of needs for both content creators and users, promoting a collaborative and sharing culture while respecting the rights of the original creators.
+
+### Applying Creative Commons licenses in open education
+
+CC licenses are integral in open education, enabling the free use and adaptation of educational materials. For instance, the **MIT OpenCourseWare** ([MIT OCW](https://ocw.mit.edu/index.htm)) project uses a CC-BY-NC-SA license to allow users to freely use, adapt, and share course materials, provided they give appropriate credit, not use them for commercial purposes, and distribute their adaptations under the same license.
+
+Similarly, **OER Commons** ([OER Commons](https://www.oercommons.org/)) provides a plethora of teaching and learning materials under various CC licenses, granting educators the flexibility to use, adapt, and share resources in compliance with the specified terms.
+
+### Other relevant organizations and licenses
+Aside from Creative Commons licenses, there are other licensing options and frameworks that are relevant to open education and OER. We list three of the most prominent licensing families below.
+
+1. The [GNU Project](https://www.gnu.org/licenses/licenses.html) is a free software, mass collaboration project with the goal to give computer users freedom and control in their use of their computers and computing devices by collaboratively developing and publishing software that gives everyone the rights to freely run the software, copy and distribute it, study it, and modify it. The GNU Project has developed a number of licenses that are commonly used in open science:
+   
+   - **GNU General Public License (GPL)**: This license, commonly used for software, allows users to freely use, modify, and distribute software and software-based works. It requires that any derivative work also be distributed under the same license.
+   - **GNU Free Documentation License (GFDL)**: Created for manuals, textbooks, and other functional and instructional materials, allowing them to be copied, distributed, and modified provided derivative works are under the same license.
+
+2. The [Apache Software Foundation](https://www.apache.org) is an American nonprofit corporation to support a number of open-source software projects. The foundation is known for its support for the Apache HTTP Server, the world's most used web server software. The foundation developed the Apache license:
+   
+   - **Apache License 2.0**: A permissive free software license written by the Apache Software Foundation, allowing users to use the software for any purpose, to distribute it, to modify it, and to distribute modified versions of the software under the terms of the license.
+   - **Educational Community License 2.0**: A modified Apache 2.0 license by the [open source initiative](https://opensource.org/license/ecl-2-0/) that change the scope of the patent grant to be specific to the needs of the education communities using this license. The Educational Community License is specifically crafted for the higher education community. It allows others to use, modify, and distribute educational materials similarly to CC and open source licenses.
+
+3. The Massachusetts Institute of Technology has developed a permissive free software license in the late 1980s
+   
+   - **MIT License**: A permissive free software license originating at the Massachusetts Institute of Technology. It's a short, simple license allowing users to do anything they want with the material as long as they include the original copyright notice and disclaimers. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.
+
+Understanding the nuances of intellectual property, copyright, and public domain is fundamental to navigating the legal landscape of open education. Creative Commons licenses offer a balanced approach, granting educators and learners the freedom to use, adapt, and share educational materials while respecting the rights of original creators. This dynamic fosters an environment of collaboration, innovation, and accessibility in education, aligning with the ethos of an open, inclusive, and innovative learning culture.
+
+Incorporate appropriate citations, and ensure that the provided links and resources are thoroughly reviewed and aligned with the specific focus of your chapter and book. Adjust the text as needed to fit the overall tone, style, and depth of your work. 
+
+## Choosing a license {#sec-choosing-license}
+
+Do you feel a bit overwhelmed with all this information and you still don't know what licence to use? Don't worry, you are not alone. Choosing a license is not always easy. There are a lot of factors to take into account. There are some resources that can help you. For instance, there are licence chooser tools, see examples by [github](https://choosealicense.com/) and [creative commons](https://chooser-beta.creativecommons.org/). 
+
+
+**voorstel, audio discussie fragment opnemen over waarom helemaal open of toch net niet. discussie tussen gerko en jonathan? Jonathan vragen of hij dit wil doen. **
+

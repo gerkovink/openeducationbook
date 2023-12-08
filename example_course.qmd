@@ -1,1 +1,7 @@
 # An open course {#sec-example_courses}
+
+cursus EJ: infomda2.nl
+markup cursus gerko: https://www.gerkovink.com/markup/
+bayes summerschool: https://utrechtuniversity.github.io/BayesianEstimation/
+
+verschillende smaken van hoeveel detail en informatie je deelt. Van simpelste (EJ) tot meest uitgebreide (flexdashboard). Bayes summerschool heeft als voorbeeld materialen die later open zijn gemaakt. Slides bijvoorbeeld alle figuren waar mogelijk copyright op zit weggelaten. Rest van de slides gedeeld. Dus delen wat kan.   

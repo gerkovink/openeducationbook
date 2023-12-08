@@ -1,5 +1,30 @@
 # Introduction
 
+
+Because just like in any other book you will encounter a lot of abbreviations, here is a list of the most important ones. 
+
+Abbreviation | Meaning
+-----|-----
+OER | Open Educational Resources
+MIT OCW | MIT OpenCourseWare
+IP | Intellectual Property
+GNU GPL | GNU General Public License
+CC | Creative Commons
+CC-BY | Creative Commons Attribution
+CC-BY-SA | Creative Commons Attribution-ShareAlike
+CC-BY-NC-SA | Creative Commons Attribution-NonCommercial-ShareAlike
+GNU-GFDL | GNU Free Documentation License
+
+: Abbreviations used in the book and their meanings.
+
+To make consistent:
+
+-  GitHub vs. github
+
+
+
+
+
 What we are going to cover:
 
 - What is open education?
@@ -21,4 +46,6 @@ What we are going to cover:
 - Examples
   - a lecture
   - a course
+
+
 

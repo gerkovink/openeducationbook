@@ -28,6 +28,7 @@ book:
     - index.qmd
     - intro.qmd
     - open_education.qmd
+    - licensing.qmd
     - where_to_start.qmd
     - creating_content.qmd
     - keeping_up_to_date.qmd
