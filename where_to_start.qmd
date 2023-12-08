@@ -20,7 +20,7 @@ The decision between these two approaches is not a binary one. A successful open
 
 Remember, the ultimate goal is to improve the accessibility and adaptability of educational resources. Whether you achieve this by opening existing materials or designing new ones with openness in mind will depend on your unique circumstances, resources, and goals. Let's explore these two approaches in greater detail. 
 
-## Starting Open Prospectively
+## Starting Open Prospectively {#sec-planning_for_openness}
 
 Embarking on the journey of creating OER is a rewarding endeavor, but like all significant initiatives, it requires structured planning and execution. This process is delineated into four pivotal stages:
 
@@ -262,6 +262,28 @@ timeline
 
 
 ## Making it Open Retrospectively
+
+When you want to open up existing resources, you might feel like you have a head start because you already have materials. However, in practice, this does not always mean that the process is easier. To guide you through the process of making existing resources open, we will use slightly different steps than we did for creating new OER. The first two steps of the process differ from the steps we described in @sec-planning_for_openness. The last two steps are more or less the same and differences will be adressed once we get there.   
+
+1. **Evaluating Existing Resources** <br>
+Where in creating new OER we start with scoping out our plans, in making existing resources open we start with evaluating existing resources. This is because you need to know what you have before you can decide what you want to do with it. Additionally, we have to start immediately with the issue of licencing. In @sec-licensing we provide an introduction to licencing, but in making existing resources open this becomes a first issue to deal with before we can continue. In this Chapter, the Evaluation of Existing Resources is discussed in more detail.
+
+2. **Revision and Adaptation** <br>
+Once you have evaluated your existing resources, you can start to think about how you want to make them open and what changes need to be made. In @sec-updating_content we provide some considerations for updating content. We also give some practical tips. 
+
+3. **Launch and Implementation**: Here, the prepared materials are introduced to the world. This phase involves selecting the right platform, ensuring easy access for your target audience, and setting up mechanisms for feedback and interaction. For this, you need to work with the right resources, details on which can be found in @sec-resources. 
+
+4. **Leveraging Benefits**: The final stage revolves around the post-launch period. It's about amplifying the advantages of open materials, such as promoting educational equity, sharing your work with a broader audience, and fostering community collaboration. Moreover, it emphasizes the importance of continuous improvement based on feedback and evolving educational trends. See @sec-impact for more information.  
+
+
+### Evaluating Existing Resources
+
+Opening up existing resources can be more difficult then creating new ones because you have to deal with existing materials that might not be in the right format, or that are not licensed in a way that allows you to make them open. Or maybe you have to deal with the fact that you have not kept track of the sources of your materials, and you do not know if you are allowed to make them open. Maybe you need to deal with someone who developed part of the materials before you took over the course. When starting to open up existing resources, the two big things to take care of are licencing and stakeholder management.
+
+**Licencing** <br>
+
+
+**Stakeholder Management** <br>
 
 <!-- 1. Evaluating Existing Resources -->
 
