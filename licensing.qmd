@@ -115,5 +115,6 @@ Incorporate appropriate citations, and ensure that the provided links and resour
 Do you feel a bit overwhelmed with all this information and you still don't know what licence to use? Don't worry, you are not alone. Choosing a license is not always easy. There are a lot of factors to take into account. There are some resources that can help you. For instance, there are licence chooser tools, see examples by [github](https://choosealicense.com/) and [creative commons](https://chooser-beta.creativecommons.org/). 
 
 
+<FONT COLOR="#ff0000">
 **voorstel, audio discussie fragment opnemen over waarom helemaal open of toch net niet. discussie tussen gerko en jonathan? Jonathan vragen of hij dit wil doen. **
-
+</FONT>

@@ -1,4 +1,4 @@
-# Where do you start?
+# Where do you start? {#sec-where_to_start} 
 
 Congratulations on making it this far! Your interest in Open Educational Resources (OER), and your willingness to learn about and implement them, is a testament to your dedication to accessible, equitable, and collaborative learning. Thank you for your commitment to this approach in education.
 
@@ -117,14 +117,11 @@ timeline
            : Stakeholder management
            : Evaluation of success
     ... : ...
-  section Creating content
-    ... : ...
+  section Content
     ... : ...
   section Launch and Implementation
     ... : ...
-    ... : ...
   section Leveraging Benefits
-    ... : ...
     ... : ...
 
                       
@@ -179,7 +176,9 @@ Every initiative, regardless of its scale, requires some form of financial inves
 
 ::: {.callout-note}
 # Example of a budget
-Do we have one lying around that we can share? Or create a ficitve one. 
+<FONT COLOR="#ff0000">
+**Do we have one lying around that we can share? Or create a ficitve one. **
+</FONT>
 :::
 
 **Licensing** <br>
@@ -207,14 +206,11 @@ timeline
     Practicalities : Resources and time commitment
                    : Licensing
                    : Platform and content
-  section Creating content
-    ... : ...
+  section Content
     ... : ...
   section Launch and Implementation
     ... : ...
-    ... : ...
   section Leveraging Benefits
-    ... : ...
     ... : ...
 
                       
@@ -266,7 +262,7 @@ timeline
 When you want to open up existing resources, you might feel like you have a head start because you already have materials. However, in practice, this does not always mean that the process is easier. To guide you through the process of making existing resources open, we will use slightly different steps than we did for creating new OER. The first two steps of the process differ from the steps we described in @sec-planning_for_openness. The last two steps are more or less the same and differences will be adressed once we get there.   
 
 1. **Evaluating Existing Resources** <br>
-Where in creating new OER we start with scoping out our plans, in making existing resources open we start with evaluating existing resources. This is because you need to know what you have before you can decide what you want to do with it. Additionally, we have to start immediately with the issue of licencing. In @sec-licensing we provide an introduction to licencing, but in making existing resources open this becomes a first issue to deal with before we can continue. In this Chapter, the Evaluation of Existing Resources is discussed in more detail.
+Where in creating new OER we start with scoping out our plans, in making existing resources open we start with evaluating existing resources. This is because you need to know what you have before you can decide what you want to do with it. Additionally, we have to start immediately with the issue of licencing. In @sec-licensing we provide an introduction to licencing. When making existing resources open, licencing becomes the first issue to deal with before we can continue. In this Chapter, the Evaluation of Existing Resources is discussed in more detail.
 
 2. **Revision and Adaptation** <br>
 Once you have evaluated your existing resources, you can start to think about how you want to make them open and what changes need to be made. In @sec-updating_content we provide some considerations for updating content. We also give some practical tips. 
@@ -282,41 +278,57 @@ Opening up existing resources can be more difficult then creating new ones becau
 
 **Licencing** <br>
 
+When you want to open up existing resources, you need to make sure that you have the right to do so. This means that you need to know what the current licencing situation is. You need to know if you are allowed to make the materials open, and if so, under what conditions. If you are not allowed to make the materials open, you need to find out if you can get permission to do so. If you cannot get permission, you need to find alternatives or only partially open up the materials. Perhaps it is not immediately clear what the licence currently is. In that case, you may need to reviewing course materials, check with content creators, or consult institutional policies. In short, the first step is to *identify the current licencing situation(s)* and *understand restrictions and permissions*. [Example @exm-scoping_questions3] shows how you could map the existing situation. 
+
+Once the current situation is mapped, compatibility of the licences with each other and with your goals has to be assessed. Is it feasible to re-license the materials? If not, what are the alternatives? If it is feasible, what are the implications? What will the new licence be? Are you okay with using that licence or will you drop some of the more restrictive materials and create new materials in their place? Finally, do you want all materials to have the same licence or are you okay with different licences for different materials? The latter complicates things for any next iteration of the materials, but might be necessary if you cannot get permission to re-license some of the materials. In short, the second step is to review the *compatibility of licences* and *develop strategies for materials with restrictive licences*. Finally, it would be good if you at least mention the issue of *consistency in licensing* and even better if you keep a detailed record of all licensing decisions and justifications. This ensures transparency in licensing for end-users and potential collaborators. You could, for instance, keep these notes in a `readme` file.
+
+
+:::: {.callout-note icon=false appearance=simple}
+::: {#exm-scoping_questions3}
+# Example Mapping the Current Situation
+
+|  | slides class 1 | slides class 2 | Exercises | Videos | Software |
+| --- | --- | --- | --- | --- | --- |
+| Current Licence | CC-BY | CC-BY | CC-BY-SA | CC-BY-NC-SA | MIT |
+| Allows sharing | Yes | Yes | Yes | Yes | Yes |
+| Allows adaptation | Yes | Yes | Yes | Yes | Yes |
+| Allows commercial use | Yes | Yes | Yes | No | Yes |
+| Share Alike | No | No | Yes | Yes | No |
+| Attribution | Yes | Yes | Yes | Yes | Yes |
+
+
+:::
+::::
+
 
 **Stakeholder Management** <br>
 
-<!-- 1. Evaluating Existing Resources -->
+When you want to open up existing resources, you need to make sure that you have the support of all stakeholders. This means that you need to know who the stakeholders are, what their interests are, and what their influence is. For instance, who was the original creator of the materials. What is your institutions view on opening up materials that were designed by their employees. Does your employer agree that you open up the materials? If not, what are the alternatives? First, *identify all stakeholders* and *understand their interests and influence*. Once you have done that, get their buy-in. Communicate your plan of opening up the materials and address any concerns they might have. Try to navigate resistance by identifying potential sources of resistance before you start the conversations. Prepare strategies to overcome skepticism or objections. Address both the benefits and concerns that stakeholders might have, @sec-open_education can help you with both. 
 
-<!-- Where in creating new OER we start with scoping out our plans, in making existing resources open we start with evaluating existing resources. This is because you need to know what you have before you can decide what you want to do with it. Additionally, we have to start immediately with the issue of licencing. In @sec-licensing we provide an introduction to licencing, but in making existing resources open this becomes a first issue to deal with before we can continue.  -->
+Hopefully your stakeholders are as enthusiastic as you are, or at least allow you to start opening up. Ideally stakeholders become active participants in the decision-making process. For instance, in deciding on the licences that should be used in your institutions views. Whether or not they become active participants, it is good to keep them informed throughout the process. What is the progress and what were the final results. Where can the open materials be found and how can they be shared. 
 
-<!-- 2. Transforming and Adapting Content -->
-<!-- 3. Overcoming Challenges -->
-
-<!-- ```{mermaid} -->
-<!-- %%| fig-cap: Note this figure is not yet ready and just here as an idea to put a sequence of actions as an overview. -->
-<!-- %%| label: fig-making_it_open -->
-<!-- timeline -->
-<!--   title Making it Open -->
-<!--   section Evaluating Existing Resources -->
-<!--     Scoping : What are current rules? -->
-<!--     Practicalities : Do you have source materials?  -->
-<!--                    : ... -->
-<!--   section Transforming and Adapting Content -->
-<!--     Considerations : accessibility -->
-<!--                    : updating and maintanance -->
-
-<!-- ``` -->
-
-<!-- See @fig-making_it_open for a quick overview of the steps described in this section. -->
+Finally, it is good to keep a record of all communications with stakeholders. This ensures that you will not get into trouble later on if someone claims that they did not agree to opening up the materials. when opening up existing materials, you need to be more careful to avoid any issues down the line. To help you keep track of all the steps you need to take, we have created mapping that you can use to make sure you do not forget anything, see @fig-making_it_open. The Figure will be updated after each relevant section such that, step by step, the sequence of actions to make resources open will be mapped.
 
 
 
-<!-- ## Recap: Steps to Start an Open Education Initiative -->
+```{mermaid}
+%%| fig-cap: Mapping the actions that need to be taken to make resources open retrospectively. Here the actions for the evaluating existing resources stage are added to this map.
+%%| label: fig-making_it_open
 
-<!-- - Identifying Your Goals and Audience -->
-<!-- - Selecting Suitable Content and Format -->
-<!-- - Navigating Licensing and Legal Aspects -->
-<!-- - Planning for Accessibility and Inclusivity -->
-<!-- - Collaborating with Others in the Community -->
+timeline
+  title Opening Up Existing Educational Materials
+  section Planning for Openness
+    Evaluating Existing Resources : Licencing
+                            : Stakeholder Management
+  section Content
+    ... : ...
+  section Launch and Implementation
+    ... : ...
+  section Leveraging Benefits
+    ... : ...
+   
+
+```
+
 
 

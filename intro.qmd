@@ -48,4 +48,15 @@ What we are going to cover:
   - a course
 
 
+## Contributors {#sec-contributors}
 
+Before we continue to the content of the book. Here is a list of contributors that helped to make this book possible.
+
+```{python}
+#| echo: false
+import requests, json
+
+logins = json.loads(requests.get("https://api.github.com/repos/gerkovink/openeducationbook/contributors?per_page=100").text)
+for login in logins:
+    print(f"{login['login']} has {login['contributions']} commits")
+```

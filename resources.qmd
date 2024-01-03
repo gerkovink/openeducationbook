@@ -1,5 +1,14 @@
 # Resources  {#sec-resources}
 
+This chapter on resources serves as a guide to the various tools and platforms that can be used to create, manage, and disseminate open educational resources (OER). The overview is not comprehensive but rather provides a starting point for educators and institutions looking to incorporate open education into their teaching and learning practices. The chapter will help you with the `Launch and Implementation` stage of creating your OER, see @sec-where_to_start.
+
+The initial authors have mostly made descriptions of tools they use themselves. We welcome anyone to contribute descriptions of additional resources so that we can become more complete. Just create a pull request to add content to the book. In the online version of the book there should be a `Edit this page` button beneath the Table of contents. If you are not familiar with GitHub, please see the screen capture below on how to add content to the book. You will be recognized as a contributor to the book in the [contributors list](#sec-contributors). 
+
+
+<FONT COLOR="#ff0000">
+**Add screencapture on how to edit the book.**
+</FONT>
+
 ## Github 
 [GitHub](https://github.com) is a powerful and versatile platform, transcending its traditional role as a hub for software development. At its core, GitHub is a web-based interface that utilizes [`Git`](https://git-scm.com), a version control system allowing multiple people to work together on projects. This functionality of GitHub is not limited to code; it extends seamlessly into the development and management of open educational resources.
 
