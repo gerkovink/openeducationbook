@@ -1,5 +1,7 @@
 # Updating Content {#sec-updating_content}
 
+- when using examples by others. update them to your local context.
+
 Chapter to provide guidance on how to keep content up to date in starting open and how to update content when making it open.
 
 - opening issues

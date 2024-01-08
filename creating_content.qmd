@@ -1,12 +1,37 @@
 # Creating Content {#sec-creating_content}
 
-In this Chapter we aim to provide some guidance on how to create content with openness in mind. Clearly we cannot create content for you, but we hope that the suggestions in this Chapter will be useful considerations for when you design your materials. What we also won't do here is help you to structure your curiculum. There are plenty of other resources for that, see for instance XXX and XXX. What we focus on here is what we think is impoartant in relation to thinking open whilst creating new content. That means that we do not focus on opening up existing materials or updating what has been created in this Chapter. In @sec-updating_content we will discuss how to keep content up to date and how to update content whilst making it open.
+In this Chapter we aim to provide some guidance on how to create content with openness in mind. Clearly we cannot create content for you, but we hope that the suggestions in this Chapter will be useful considerations for when you design your materials. What we also won't do here is help you to structure your curriculum. There are plenty of other resources for that, see for instance @mckeachie2013mckeachie or @marshall_handbook_2020 [Chapter 9] on developing an inclusive curriculum. What we focus on here is what we think is important in relation to thinking open whilst creating new content. That means that we do not focus on opening up existing materials or updating what has been created in this Chapter. In @sec-updating_content we will discuss how to keep content up to date and how to update content whilst making it open.
 
 ## Open Principles
 
-In @sec-open_education we descibed the core principles and pedagogical foundations of open education.
+In @sec-open_education we described the core principles and pedagogical foundations of open education. We will not repeat them here, but we do want to highlight some of the key principles that we think are important to consider when creating content. When crafting OER with an open approach, it's crucial to embed the ethos of openness into every aspect of the creation process. This means not only making your content freely accessible but also ensuring it resonates with a broad and diverse audience and adheres to idea of transparency, inclusivity and accessibility. It is optimal to design content that accommodates a wide range of learners, including those with disabilities. This consideration influences various aspects of content creation:
+
+- **Universal Design for Learning (UDL)**: Adopt UDL principles to create materials that offer multiple means of engagement, representation, and expression. This approach ensures that learning experiences are accessible and meaningful for all students, regardless of their learning style or ability. For more information, see the UDL guidelines [here](https://udlguidelines.cast.org/) [@cast_universal_2018].
+  
+- **Cultural Sensitivity**: Be mindful of cultural diversity in your content. This includes using inclusive language, examples, and illustrations that reflect a variety of backgrounds and experiences. Avoid cultural biases and stereotypes to ensure your content is welcoming and relatable to a global audience.
+
+- **Technology and Formats**: Choose formats that are widely accessible. For instance, while videos can be engaging, they should be complemented with captions or transcripts for learners with hearing impairments. Similarly, text materials should be screen-reader friendly, and interactive tools should be navigable for users with different abilities. When designing figures, consider using color-blind friendly palettes and patterns.
+
+Transparency in content creation fosters trust and encourages participation. It involves being clear about the sources of your information, the choices you make in your teaching materials, and the pedagogical approaches you adopt:
+
+- **Source Attribution**: Whenever using external resources, practice meticulous attribution, giving credit to original creators. This not only respects intellectual property rights but also provides transparency and models academic integrity for learners. Consider to even give credit if this is not strictly required by the licences of the materials you use. 
+
+- **Collaborative Development**: Whenever possible, involve the community in content creation. This could be through open calls for contributions, peer review processes, or co-creation. Such collaboration can enhance the quality and relevance of the materials.
+
+- **Documentation and Sharing of Creation Process**: Documenting how your content was created, the decisions made along the way, and the revisions it went through can be incredibly valuable. This documentation, when shared openly, helps others understand your process, learn from it, and possibly contribute to it. We do understand constraints on time and resources, but in the long run the documentation might save future you some time in the end. 
+
+
+<!-- -- -->
+<!-- By adhering to these principles, you ensure that the content not only serves educational purposes but also embodies the spirit of open education. It becomes a tool not just for learning but also for fostering a broader culture of openness, collaboration, and mutual respect in the educational community. -->
+
+<!-- --- -->
+
+<!-- This approach to content creation not only aligns with the philosophy of open education but also enhances the overall quality and impact of the educational materials. -->
+
 
 > Open education is anchored in the belief that education is a universal right. It denotes a dynamic, learner-centric approach to education that seeks to remove barriers to learning and promote equal access to knowledge. Open educational practices are rooted in inclusivity, collaboration, and a focus on improving quality and learner outcomes.
+
+
 
 > At the heart of open education lies an enhanced pedagogical ethos that is inherently flexible and diverse, accommodating a variety of learning styles and needs. 
 
