@@ -11,7 +11,7 @@
 
 ```{mermaid}
 %%| fig-cap: Note this figure is not yet ready and just here as an idea to put a sequence of actions as an overview.
-%%| label: fig-planning_for_openness3
+%%| label: fig-planning_for_openness5
 
 timeline
   title Starting Open Prospectively
