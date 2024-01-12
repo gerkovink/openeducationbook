@@ -1,8 +1,6 @@
 # Preface {.unnumbered}
 
-<!-- https://chat.openai.com/c/e73e0922-5099-4463-b258-6e91c7f6799d -->
+With pride, we present to you this book on Open Educational Resources (OER). This book has been written and designed with the assistance of generative AI, which has helped us explain all the information related to this topic in a clear manner. We also used generative AI to create some of the graphics in this book. Naturally, we have undertaken the editing process for AI-assisted parts to ensure the accuracy of the information. Thus, we take full responsibility for the content presented in this book.
 
-With pride, we present to you this book on Open Educational Materials (OEM). This book has been written and designed with the assistance of generative AI, which has helped us explain all the information related to this topic in a clear manner. We also used generative AI to create some of the graphics in this book. Naturally, we have undertaken the editing process for AI-assisted parts to ensure the accuracy of the information. Thus, we take full responsibility for the content presented in this book.
-
-Our goal with this book is to provide a free, comprehensive, and easily understandable source of information for people interested in OEM. We firmly believe that everyone should have access to high-quality educational resources, regardless of their financial resources.
+Our goal with this book is to provide a free, comprehensive, and easily understandable source of information for people interested in OER. We firmly believe that everyone should have access to high-quality educational resources, regardless of their financial resources.
 
