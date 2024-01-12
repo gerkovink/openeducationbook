@@ -4,6 +4,9 @@ project:
 
 book:
   title: "Open Education Book"
+  repo-url: https://github.com/gerkovink/openeducationbook
+  repo-branch: dev
+  repo-actions: [edit, issue]
   author: 
   - name: Hanne Oberman
     orcid: 0000-0003-3276-2141
@@ -24,13 +27,26 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
+    - open_education.qmd
+    - licensing.qmd
+    - where_to_start.qmd
+    - creating_content.qmd
+    - keeping_up_to_date.qmd
+    - resources.qmd
+    - impact.qmd
+    - part: examples.qmd
+      chapters:
+      - example_lecture.qmd
+      - example_course.qmd
+  appendices:
     - references.qmd
 
 bibliography: references.bib
 
 format:
   html:
+    toc-depth: 3
+    include-after-body: custom.html
     theme: cosmo
   pdf:
     documentclass: scrreprt

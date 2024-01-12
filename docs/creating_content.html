@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.90">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Open Education Book - 5&nbsp; Creating Content</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./keeping_up_to_date.html" rel="next">
+<link href="./where_to_start.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./creating_content.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Creating Content</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Open Education Book</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/gerkovink/openeducationbook" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./open_education.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">What is open education?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./licensing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Licensing: The Legalities of Open Education</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./where_to_start.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Where do you start?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./creating_content.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Creating Content</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./keeping_up_to_date.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Updating Content</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Resources</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./impact.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Generating Impact</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./examples.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Case studies</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./example_lecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">An open lecture</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./example_course.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">An open course</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#open-by-design" id="toc-open-by-design" class="nav-link active" data-scroll-target="#open-by-design"><span class="header-section-number">5.1</span> Open by Design</a></li>
+  <li><a href="#testing" id="toc-testing" class="nav-link" data-scroll-target="#testing"><span class="header-section-number">5.2</span> Testing</a>
+  <ul class="collapse">
+  <li><a href="#technical-compatibility" id="toc-technical-compatibility" class="nav-link" data-scroll-target="#technical-compatibility"><span class="header-section-number">5.2.1</span> Technical Compatibility</a></li>
+  <li><a href="#load-testing" id="toc-load-testing" class="nav-link" data-scroll-target="#load-testing"><span class="header-section-number">5.2.2</span> Load Testing</a></li>
+  <li><a href="#iterative-approach" id="toc-iterative-approach" class="nav-link" data-scroll-target="#iterative-approach"><span class="header-section-number">5.2.3</span> Iterative Approach</a></li>
+  </ul></li>
+  <li><a href="#prepare-for-the-future" id="toc-prepare-for-the-future" class="nav-link" data-scroll-target="#prepare-for-the-future"><span class="header-section-number">5.3</span> Prepare for the Future</a>
+  <ul class="collapse">
+  <li><a href="#designing-for-adaptability" id="toc-designing-for-adaptability" class="nav-link" data-scroll-target="#designing-for-adaptability"><span class="header-section-number">5.3.1</span> Designing for Adaptability</a></li>
+  <li><a href="#files-and-formats" id="toc-files-and-formats" class="nav-link" data-scroll-target="#files-and-formats"><span class="header-section-number">5.3.2</span> Files and Formats</a></li>
+  <li><a href="#feedback-and-update-mechanism" id="toc-feedback-and-update-mechanism" class="nav-link" data-scroll-target="#feedback-and-update-mechanism"><span class="header-section-number">5.3.3</span> Feedback and Update Mechanism</a></li>
+  <li><a href="#community-involvement" id="toc-community-involvement" class="nav-link" data-scroll-target="#community-involvement"><span class="header-section-number">5.3.4</span> Community Involvement</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/gerkovink/openeducationbook/edit/dev/creating_content.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/gerkovink/openeducationbook/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-creating_content" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Creating Content</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>In this Chapter we aim to provide some guidance on how to create content with openness in mind. Clearly we cannot create content for you, but we hope that the suggestions in this Chapter will be useful considerations for when you design your materials. What we also won’t do here is help you to structure your curriculum. There are plenty of other resources for that, see for instance <span class="citation" data-cites="mckeachie2013mckeachie">McKeachie and Svinicki (<a href="references.html#ref-mckeachie2013mckeachie" role="doc-biblioref">2013</a>)</span> or <span class="citation" data-cites="marshall_handbook_2020">Marshall (<a href="references.html#ref-marshall_handbook_2020" role="doc-biblioref">2020, chap. 9</a>)</span> on developing an inclusive curriculum. What we focus on here is what we think is important in relation to thinking open whilst creating new content. That means that we do not focus on opening up existing materials or updating what has been created in this Chapter. In <a href="keeping_up_to_date.html" class="quarto-xref"><span>Chapter&nbsp;6</span></a> we will discuss how to keep content up to date and how to update content whilst making it open.</p>
+<section id="open-by-design" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="open-by-design"><span class="header-section-number">5.1</span> Open by Design</h2>
+<p>In <a href="open_education.html" class="quarto-xref"><span>Chapter&nbsp;2</span></a> we described the core principles and pedagogical foundations of open education. We will not repeat them here, but we do want to highlight some of the key principles that we think are important to consider when creating content. When crafting OER with an open approach, it’s crucial to embed the ethos of openness into every aspect of the creation process. This means not only making your content freely accessible but also ensuring it resonates with a broad and diverse audience and adheres to idea of transparency, inclusivity and accessibility. It is optimal to design content that accommodates a wide range of learners, including those with disabilities. Here are some suggestions you can keep in mind when designing content:</p>
+<ul>
+<li><p><strong>Universal Design for Learning (UDL)</strong>: Adopt UDL principles to create materials that offer multiple means of engagement, representation, and expression. This approach ensures that learning experiences are accessible and meaningful for all students, regardless of their learning style or ability. For more information, see the UDL guidelines <a href="https://udlguidelines.cast.org/">here</a> <span class="citation" data-cites="cast_universal_2018">(<a href="references.html#ref-cast_universal_2018" role="doc-biblioref">CAST 2018</a>)</span>.</p></li>
+<li><p><strong>Cultural Sensitivity</strong>: Be mindful of cultural diversity in your content. This includes using inclusive language, examples, and illustrations that reflect a variety of backgrounds and experiences. Avoid cultural biases and stereotypes to ensure your content is welcoming and relatable to a broad audience.</p></li>
+<li><p><strong>Technology and Formats</strong>: Choose formats that are widely accessible. For instance, while videos can be engaging, they should be complemented with captions or transcripts for learners with hearing impairments. Similarly, text materials should be screen-reader friendly, and interactive tools should be navigable for users with different abilities. When designing figures, consider using color-blind friendly palettes and patterns.</p></li>
+</ul>
+<p>These suggestions to content creation not only aligns with the philosophy of open education, they also enhances the overall quality and impact of the educational materials. Your work will be more accessible, more engaging, and more relevant to a broader audience.</p>
+</section>
+<section id="testing" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="testing"><span class="header-section-number">5.2</span> Testing</h2>
+<p>Being open is not just about making content available, it is also about making sure that the content is accessible and usable. Just putting content online is not enough. You want to know that people can actually use the content of your OER after putting in all that effort to create them. Ensuring that your open educational resources function effectively across various platforms and technologies is what we can call the “Testing” phase. The testing is meant to assess the technical robustness and user accessibility of your content. Here are some key areas to focus on:</p>
+<section id="technical-compatibility" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="technical-compatibility"><span class="header-section-number">5.2.1</span> Technical Compatibility</h3>
+<ul>
+<li><strong>Cross-Device Accessibility</strong>: Test whether your content can be accessed across different devices such as smartphones, tablets, laptops, and desktop computers.</li>
+<li><strong>Operating System Compatibility</strong>: Ensure that the content functions well on various operating systems, including Windows, macOS, Linux, iOS, and Android.</li>
+<li><strong>Browser Compatibility</strong>: Verify that your content displays correctly in various web browsers like Chrome, Firefox, Safari, and Edge.</li>
+<li><strong>Screen Size Adaptability</strong>: Test how your content adapts to different screen sizes, ensuring readability and usability across devices.</li>
+<li><strong>Internet connection Speed</strong>: Ensure that your content loads efficiently even on slower connections, which is crucial for users in regions with limited bandwidth. For instance, optimize image and video sizes without compromising quality. The <a href="https://developers.google.com/speed/pagespeed/insights/">Google PageSpeed Insights</a> tool can be helpful in analyzing page load times and offering optimization suggestions.</li>
+</ul>
+</section>
+<section id="load-testing" class="level3" data-number="5.2.2">
+<h3 data-number="5.2.2" class="anchored" data-anchor-id="load-testing"><span class="header-section-number">5.2.2</span> Load Testing</h3>
+<ul>
+<li><strong>Handling High Traffic</strong>: If your content is hosted online, conduct load testing to ensure that your server can handle high traffic without significant performance issues. Or in any case, figure out if you can handle the demand of the amount of students you have. We can assure you from personal experience that it is not fun to have servers crash because too many people are trying to access your content at the same time in your classroom. This can be a real shame of the time spent on developing the content.</li>
+</ul>
+</section>
+<section id="iterative-approach" class="level3" data-number="5.2.3">
+<h3 data-number="5.2.3" class="anchored" data-anchor-id="iterative-approach"><span class="header-section-number">5.2.3</span> Iterative Approach</h3>
+<p>Treat testing as an ongoing process of continuous improvement. Use the feedback and data collected to make continuous improvements, enhancing the accessibility, usability, and overall quality of your content.</p>
+<ul>
+<li><strong>Feedback from Actual Users</strong>: Collect feedback from a group of test users representing your target audience. Or collect feedback during actual usage. This can provide valuable insights into the usability, engagement level, and overall learner experience.</li>
+<li><strong>Ease of Navigation</strong>: Assess how easy it is for users to find and navigate through the content. Ensure that navigation elements are intuitive and user-friendly.</li>
+<li><strong>Accessibility</strong>: Ensure that your OER are fully accessible to learners with disabilities. This includes checking for screen reader compatibility, ensuring proper color contrast, and providing captions or transcripts for videos. Utilize a tool like <a href="https://wave.webaim.org/">WAVE (Web Accessibility Evaluation Tool)</a> to evaluate your content for accessibility compliance.</li>
+</ul>
+<p>By rigorously testing your OER, you not only enhance its technical quality but also ensure a more pleasant and effective learning experience for all users.</p>
+</section>
+</section>
+<section id="prepare-for-the-future" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="prepare-for-the-future"><span class="header-section-number">5.3</span> Prepare for the Future</h2>
+<p>Creating open educational resources (OER) is not just about addressing current educational needs; it’s also about building resources that can evolve and remain relevant over time. As you develop your OER, it’s essential to consider how they will be maintained, updated, and used in the future. Here are some strategies to ensure your content remains valuable and adaptable for years to come:</p>
+<section id="designing-for-adaptability" class="level3" data-number="5.3.1">
+<h3 data-number="5.3.1" class="anchored" data-anchor-id="designing-for-adaptability"><span class="header-section-number">5.3.1</span> Designing for Adaptability</h3>
+<ul>
+<li><strong>Modular Design</strong>: Create your content in modular segments that can be easily updated or reorganized. This approach allows for easier revisions and additions without needing to overhaul the entire resource. Most educational resources will naturally follow such a modular design. But make sure that, for instance, cross references are adaptive to changes in the content.</li>
+<li><strong>Software use</strong>: Try to avoid proprietary software that may become inaccessible in the future. For instance, if you use a proprietary software to create your content, make sure that you can export your work to a standard format that can be used with other software. This is especially important for editable files like documents, images, and videos. Realize that future you might not have access to licences for the software you used to create your content. Additionally, consider any software that your students might need to use. Students might have access to software through their university. But once they graduate, they might not have access to the software anymore. In these cases, consider using Open Source Software.</li>
+</ul>
+</section>
+<section id="files-and-formats" class="level3" data-number="5.3.2">
+<h3 data-number="5.3.2" class="anchored" data-anchor-id="files-and-formats"><span class="header-section-number">5.3.2</span> Files and Formats</h3>
+<ul>
+<li><strong>Preserve Source Materials</strong>: Always keep the raw, editable files of your content, not just the final published versions. For instance, maintain the original editable files for documents, images, and videos.</li>
+<li><strong>Version Control</strong>: Use version control systems like <a href="https://git-scm.com/">Git</a> and platforms like <a href="https://github.com/">GitHub</a> or <a href="https://about.gitlab.com/">GitLab</a> to track changes and manage updates to your content. This is especially useful for collaborative projects. See also <a href="resources.html" class="quarto-xref"><span>Chapter&nbsp;7</span></a>.</li>
+<li><strong>Format Considerations</strong>: Choose file formats that are widely used and likely to be supported in the long term. For example, standard formats like HTML, PDF, and MP4 are more likely to be accessible and usable in the future compared to proprietary formats.</li>
+</ul>
+</section>
+<section id="feedback-and-update-mechanism" class="level3" data-number="5.3.3">
+<h3 data-number="5.3.3" class="anchored" data-anchor-id="feedback-and-update-mechanism"><span class="header-section-number">5.3.3</span> Feedback and Update Mechanism</h3>
+<ul>
+<li><strong>Feedback Channels</strong>: Establish clear channels for users to provide feedback on your resources. This can be through online forms, email, or within the learning platform itself. This feedback can be used to inform future updates and revisions.</li>
+<li><strong>Regular Review and Update Cycles</strong>: Set a schedule for regularly reviewing and updating your content. This ensures that your materials stay up-to-date with the latest information and educational practices. Usually this is a natural cycle for educational resources. But it is important to be aware of this cycle and to plan time to update.</li>
+</ul>
+</section>
+<section id="community-involvement" class="level3" data-number="5.3.4">
+<h3 data-number="5.3.4" class="anchored" data-anchor-id="community-involvement"><span class="header-section-number">5.3.4</span> Community Involvement</h3>
+<ul>
+<li><strong>Encourage Community Contributions</strong>: Foster a community around your OER where educators, learners, and other stakeholders can contribute to the content’s development and refinement.</li>
+<li><strong>Collaboration Platforms</strong>: Consider utilizing platforms that allow for collaborative contributions and discussions, such as wikis or community forums.</li>
+<li><strong>Open Licenses</strong>: Use open licenses that allow others to use, adapt, and redistribute your content. This encourages community involvement and allows for the creation of derivative works. See also <a href="licensing.html" class="quarto-xref"><span>Chapter&nbsp;3</span></a>.</li>
+</ul>
+<p>By implementing these strategies, you do everything you can to ensure that your OER remain valuable, relevant, and accessible for years to come. Preparing for the future is about building flexibility into your resources and fostering a culture of continuous improvement and community engagement.</p>
+<p>To help you keep track of all the steps, we update our mapping in <a href="#fig-planning_for_openness3" class="quarto-xref">Figure&nbsp;<span>5.1</span></a>. Here you can find back the steps that have been described up to this point.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-planning_for_openness3" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-planning_for_openness3">timeline
+  title Starting Open Prospectively
+  section Planning for Openness
+    Scoping : Setting clear goals
+           : Understanding your audience
+           : Stakeholder management
+           : Evaluation of success
+    Practicalities : Resources and time commitment
+                   : Licensing
+                   : Platform and content
+  section Content
+    Creating content: Open by Design
+                    : Testing
+                    : Prepare for the Future
+  section Launch and Implementation
+    ... : ...
+  section Leveraging Benefits
+    ... : ...
+
+                      
+</pre>
+</div>
+<figcaption class="figure-caption">Figure&nbsp;5.1: Mapping the actions that need to be taken to create OER prospectively. Here the actions for the content stage are added to this map.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-cast_universal_2018" class="csl-entry" role="listitem">
+CAST. 2018. <span>“Universal <span>Design</span> for <span>Learning</span> <span>Guidelines</span> Version 2.2.”</span> <a href="http://udlguidelines.cast.org">http://udlguidelines.cast.org</a>.
+</div>
+<div id="ref-marshall_handbook_2020" class="csl-entry" role="listitem">
+Marshall, S. 2020. <em>Handbook for Teaching and Learning in Higher Education</em>. New York, NY: ROUTLEDGE.
+</div>
+<div id="ref-mckeachie2013mckeachie" class="csl-entry" role="listitem">
+McKeachie, Wilbert, and Marilla Svinicki. 2013. <em>McKeachie’s Teaching Tips</em>. Cengage Learning.
+</div>
+</div>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+var custom_title = document.querySelectorAll('.custom .theorem-title');
+
+for (let i = 0; i < custom_title.length; i++ ) {
+   var mod_name = custom_title[i].innerHTML;
+   custom_title[i].innerHTML = mod_name.replace("Example", "Exercise");
+};
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      try { hash = new URL(url).hash; } catch {}
+      const id = hash.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        try {
+          const html = processXRef(id, note);
+          instance.setContent(html);
+        } finally {
+          instance.enable();
+          instance.show();
+        }
+      } else {
+        // See if we can fetch this
+        fetch(url.split('#')[0])
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.getElementById(id);
+          console.log(htmlDoc.body.innerHTML);
+          if (note !== null) {
+            const html = processXRef(id, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./where_to_start.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Where do you start?</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./keeping_up_to_date.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Updating Content</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

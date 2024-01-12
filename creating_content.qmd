@@ -1,0 +1,116 @@
+# Creating Content {#sec-creating_content}
+
+In this Chapter we aim to provide some guidance on how to create content with openness in mind. Clearly we cannot create content for you, but we hope that the suggestions in this Chapter will be useful considerations for when you design your materials. What we also won't do here is help you to structure your curriculum. There are plenty of other resources for that, see for instance @mckeachie2013mckeachie or @marshall_handbook_2020 [Chapter 9] on developing an inclusive curriculum. What we focus on here is what we think is important in relation to thinking open whilst creating new content. That means that we do not focus on opening up existing materials or updating what has been created in this Chapter. In @sec-updating_content we will discuss how to keep content up to date and how to update content whilst making it open.
+
+## Open by Design
+
+In @sec-open_education we described the core principles and pedagogical foundations of open education. We will not repeat them here, but we do want to highlight some of the key principles that we think are important to consider when creating content. When crafting OER with an open approach, it's crucial to embed the ethos of openness into every aspect of the creation process. This means not only making your content freely accessible but also ensuring it resonates with a broad and diverse audience and adheres to idea of transparency, inclusivity and accessibility. It is optimal to design content that accommodates a wide range of learners, including those with disabilities. Here are some suggestions you can keep in mind when designing content:
+
+- **Universal Design for Learning (UDL)**: Adopt UDL principles to create materials that offer multiple means of engagement, representation, and expression. This approach ensures that learning experiences are accessible and meaningful for all students, regardless of their learning style or ability. For more information, see the UDL guidelines [here](https://udlguidelines.cast.org/) [@cast_universal_2018].
+  
+- **Cultural Sensitivity**: Be mindful of cultural diversity in your content. This includes using inclusive language, examples, and illustrations that reflect a variety of backgrounds and experiences. Avoid cultural biases and stereotypes to ensure your content is welcoming and relatable to a broad audience.
+
+- **Technology and Formats**: Choose formats that are widely accessible. For instance, while videos can be engaging, they should be complemented with captions or transcripts for learners with hearing impairments. Similarly, text materials should be screen-reader friendly, and interactive tools should be navigable for users with different abilities. When designing figures, consider using color-blind friendly palettes and patterns.
+
+These suggestions to content creation not only aligns with the philosophy of open education, they also enhances the overall quality and impact of the educational materials. Your work will be more accessible, more engaging, and more relevant to a broader audience.
+
+
+## Testing
+
+Being open is not just about making content available, it is also about making sure that the content is accessible and usable. Just putting content online is not enough. You want to know that people can actually use the content of your OER after putting in all that effort to create them. Ensuring that your open educational resources function effectively across various platforms and technologies is what we can call the "Testing" phase. The testing is meant to assess the technical robustness and user accessibility of your content. Here are some key areas to focus on:
+
+### Technical Compatibility
+
+- **Cross-Device Accessibility**: Test whether your content can be accessed across different devices such as smartphones, tablets, laptops, and desktop computers.
+- **Operating System Compatibility**: Ensure that the content functions well on various operating systems, including Windows, macOS, Linux, iOS, and Android.
+- **Browser Compatibility**: Verify that your content displays correctly in various web browsers like Chrome, Firefox, Safari, and Edge.
+- **Screen Size Adaptability**: Test how your content adapts to different screen sizes, ensuring readability and usability across devices.
+- **Internet connection Speed**: Ensure that your content loads efficiently even on slower connections, which is crucial for users in regions with limited bandwidth. For instance, optimize image and video sizes without compromising quality. The [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) tool can be helpful in analyzing page load times and offering optimization suggestions.
+
+
+### Load Testing
+
+- **Handling High Traffic**: If your content is hosted online, conduct load testing to ensure that your server can handle high traffic without significant performance issues. Or in any case, figure out if you can handle the demand of the amount of students you have. We can assure you from personal experience that it is not fun to have servers crash because too many people are trying to access your content at the same time in your classroom. This can be a real shame of the time spent on developing the content.
+
+### Iterative Approach
+
+Treat testing as an ongoing process of continuous improvement. Use the feedback and data collected to make continuous improvements, enhancing the accessibility, usability, and overall quality of your content.
+
+- **Feedback from Actual Users**: Collect feedback from a group of test users representing your target audience. Or collect feedback during actual usage. This can provide valuable insights into the usability, engagement level, and overall learner experience.
+- **Ease of Navigation**: Assess how easy it is for users to find and navigate through the content. Ensure that navigation elements are intuitive and user-friendly.
+- **Accessibility**: Ensure that your OER are fully accessible to learners with disabilities. This includes checking for screen reader compatibility, ensuring proper color contrast, and providing captions or transcripts for videos. Utilize a tool like [WAVE (Web Accessibility Evaluation Tool)](https://wave.webaim.org/) to evaluate your content for accessibility compliance. 
+
+By rigorously testing your OER, you not only enhance its technical quality but also ensure a more pleasant and effective learning experience for all users.
+
+
+## Prepare for the Future
+
+Creating open educational resources (OER) is not just about addressing current educational needs; it's also about building resources that can evolve and remain relevant over time. As you develop your OER, it’s essential to consider how they will be maintained, updated, and used in the future. Here are some strategies to ensure your content remains valuable and adaptable for years to come:
+
+
+### Designing for Adaptability
+
+- **Modular Design**: Create your content in modular segments that can be easily updated or reorganized. This approach allows for easier revisions and additions without needing to overhaul the entire resource. Most educational resources will naturally follow such a modular design. But make sure that, for instance, cross references are adaptive to changes in the content.
+- **Software use**: Try to avoid proprietary software that may become inaccessible in the future. For instance, if you use a proprietary software to create your content, make sure that you can export your work to a standard format that can be used with other software. This is especially important for editable files like documents, images, and videos. Realize that future you might not have access to licences for the software you used to create your content. Additionally, consider any software that your students might need to use. Students might have access to software through their university. But once they graduate, they might not have access to the software anymore. In these cases, consider using Open Source Software. 
+
+
+### Files and Formats
+
+- **Preserve Source Materials**: Always keep the raw, editable files of your content, not just the final published versions. For instance, maintain the original editable files for documents, images, and videos.
+- **Version Control**: Use version control systems like [Git](https://git-scm.com/) and platforms like [GitHub](https://github.com/) or [GitLab](https://about.gitlab.com/) to track changes and manage updates to your content. This is especially useful for collaborative projects. See also @sec-resources. 
+- **Format Considerations**: Choose file formats that are widely used and likely to be supported in the long term. For example, standard formats like HTML, PDF, and MP4 are more likely to be accessible and usable in the future compared to proprietary formats.
+
+### Feedback and Update Mechanism
+
+- **Feedback Channels**: Establish clear channels for users to provide feedback on your resources. This can be through online forms, email, or within the learning platform itself. This feedback can be used to inform future updates and revisions.
+- **Regular Review and Update Cycles**: Set a schedule for regularly reviewing and updating your content. This ensures that your materials stay up-to-date with the latest information and educational practices. Usually this is a natural cycle for educational resources. But it is important to be aware of this cycle and to plan time to update.
+
+### Community Involvement
+
+- **Encourage Community Contributions**: Foster a community around your OER where educators, learners, and other stakeholders can contribute to the content’s development and refinement.
+- **Collaboration Platforms**: Consider utilizing platforms that allow for collaborative contributions and discussions, such as wikis or community forums.
+- **Open Licenses**: Use open licenses that allow others to use, adapt, and redistribute your content. This encourages community involvement and allows for the creation of derivative works. See also @sec-licensing.
+
+
+By implementing these strategies, you do everything you can to ensure that your OER remain valuable, relevant, and accessible for years to come. Preparing for the future is about building flexibility into your resources and fostering a culture of continuous improvement and community engagement.
+
+
+To help you keep track of all the steps, we update our mapping in @fig-planning_for_openness3. Here you can find back the steps that have been described up to this point. 
+
+```{mermaid}
+%%| fig-cap: Mapping the actions that need to be taken to create OER prospectively. Here the actions for the content stage are added to this map. 
+%%| label: fig-planning_for_openness3
+
+timeline
+  title Starting Open Prospectively
+  section Planning for Openness
+    Scoping : Setting clear goals
+           : Understanding your audience
+           : Stakeholder management
+           : Evaluation of success
+    Practicalities : Resources and time commitment
+                   : Licensing
+                   : Platform and content
+  section Content
+    Creating content: Open by Design
+                    : Testing
+                    : Prepare for the Future
+  section Launch and Implementation
+    ... : ...
+  section Leveraging Benefits
+    ... : ...
+
+                      
+```
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,120 @@
+# Generating Impact {#sec-impact}
+
+- How do you get appreciation
+- What is impact?
+
+## Zenodo
+
+[Zenodo](https://zenodo.org) is a general-purpose open repository developed under the European [OpenAIRE](https://www.openaire.eu) program and operated by [CERN](https://home.cern). It was launched in May 2013 as a means for researchers in various fields to comply with open science deposit requirements, especially in the absence of an institutional repository. Zenodo allows researchers to deposit a wide array of research-related digital artifacts, including research papers, data sets, research software, and reports. Each submission is assigned a persistent digital object identifier (DOI), facilitating easy citation of the stored items.
+
+Zenodo [reported significant milestones](https://blog.zenodo.org/2021/12/07/2021-12-07-hardening-our-service/), such as hosting over 1 petabyte of data and receiving 15 million yearly visits. 
+
+Zenodo's approach to Open Science is inclusive and barrier-free, with no requirements on format, size, access restrictions, or license for submissions. This makes it an effective platform for sharing, curating, and publishing data and software for researchers worldwide. Furthermore, Zenodo's simple web interface is complemented by a rich API, allowing for third-party tools and services to integrate with it as part of their workflow. One of its key features is its integration with GitHub repositories.
+
+For Open Science, Zenodo helps researchers receive credit by making results citable and integrates them into existing reporting lines to funding agencies like the European Commission. Zenodo's metadata is openly available under a [CC0](https://creativecommons.org/public-domain/cc0/) license, and its open content is accessible through open APIs. The repository is a concrete alternative to commercial services, aiming to serve as a viable solution for current and future generations in the scholarly communication landscape.
+
+### Starting a Zenodo repository
+
+Zenodo enables to share and preserve your digital research objects (publications, data, software, presentations, etc.) in three simple steps:
+
+1. **Upload:** Upload the files you want to share.
+2. **Describe:** Describe the files with minimal metadata such as title and creators.
+3. **Publish:** When ready, hit the publish button to share your research.
+
+Once you publish, Zenodo will automatically assign a Digital Object Identifier (DOI) to your record. Your research output will be findable and citable immediately. Zenodo provides a straightforward and user-friendly outline of this procedure [in its documentation](https://help.zenodo.org/docs/get-started/quickstart/).
+
+### Zenodo and GitHub
+Referencing and citing content for scientific purposes on GitHub is not straightforward. GitHub is a code repository, not a publishing platform. GitHub does not provide a DOI for repositories, and the only way to cite a GitHub repository is to use the URL. However, the URL is not persistent, and the content of the repository can change over time. Zenodo provides a solution to this problem by integrating with GitHub. Zenodo can create a snapshot of a GitHub repository and assign a DOI to it. This DOI can then be used to cite the repository. This process is clearly outlined in the [Zenodo documentation](https://guides.github.com/activities/citable-code/) and [GitHub documentation](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
+
+## Edusources
+
+[Edusources](https://edusources.nl) is a comprehensive digital platform in the Netherlands, designed to enhance the accessibility and sharing of Open Educational Resources for the Dutch education sector. This platform is pivotal in the distribution and utilization of digital learning resources, catering to a broad spectrum of needs across various educational levels. Edusources is not designed to host files but rather to provide a centralized location for educators to discover and share digital learning materials. The hosting part can be done by other platforms, such as Zenodo, OSF, GitHub or Surfsharekit (see @sec-resources)
+
+One of the key features of Edusources is its extensive repository of digital learning materials. The platform offers more than 10,000 learning resources contributed by subject teachers and educational communities. These resources encompass a diverse range of materials including knowledge clips, PowerPoint presentations, PDFs, online modules, and practice tests. The platform's design not only facilitates the discovery of these resources but also encourages educators to contribute their own materials, thereby continually enhancing the quality and variety of the collection.
+
+## final scheme starting open prospectively
+
+```{mermaid}
+%%| fig-cap: Note this figure is not yet ready and just here as an idea to put a sequence of actions as an overview.
+%%| label: fig-planning_for_openness5
+
+timeline
+  title Starting Open Prospectively
+  section Planning for Openness
+    Scoping : Setting clear goals
+           : Understanding your audience
+           : Format Selection
+           : Platform selection
+           : Stakeholder management
+           : Evaluation of success
+    Practicalities : Determine suitable format
+                   : Choose a platform
+                   : Licencing
+  section Creating content
+    Design and Development : Curriculum Mapping
+                           : Integrate Open Principles
+                           : Content Creation Tools
+                           : Incorporating Interactive Elements
+    Quality Assurance and Review : Peer Review
+                                : Accessibility Checks
+                                : Iterative Testing
+  section Launch and Implementation
+    Promotion and Dissemination : Marketing Strategies
+                                : Community Building
+    Ongoing Support : Updating Content
+                    : Address Feedback
+                    : Navigate Technological Changes
+  section Leveraging Benefits
+    Maximizing Impact : Track Usage Data
+                      : Celebrate Successes
+                      : Foster Collaborative Community
+    Reflection : Evaluate Achievements
+               : Lessons Learned
+               : Future Roadmaps
+
+                      
+```
+
+
+
+
+### final scheme Making it Open Retrospectively
+
+
+```{mermaid}
+%%| fig-cap: Note this figure is not yet ready and just here as an idea to put a sequence of actions as an overview.
+%%| label: fig-making_it_open2
+
+timeline
+  title Opening Up Existing Educational Materials
+  section Assessment and Preparation
+    Review Existing Content : Identify Current Materials
+                            : Evaluate Quality and Relevance
+                            : Understand Licensing 
+                            : Review Current Licenses
+                            : Consider Open Licensing Options
+                            : Identify Stakeholders 
+                            : Initial Accessibility Check
+                            : Decide what can be open
+  section Revision and Adaptation
+    Content Revision : Update Outdated Content
+                     : Incorporate Feedback
+                     : Convert to Open Formats
+    Licensing : Apply Suitable Open Licenses
+              : Address Third-party Content
+  section Publication and Promotion
+    Choose a Hosting Platform : Select Suitable Platform
+                              : Identify Platform Limitations
+                              : Ensure Material Compatibility
+                              : Migrate Materials
+    Community Engagement : Promote to Target Audience
+                          : Engage with Open Education Community
+  section Maintenance and Growth
+    Regular Review : Periodic Content Checks
+                   : Address Community Feedback 
+                   : Engage New Contributors
+                   : Explore New Educational Techniques
+    Continuous Learning : Track Usage and Impact
+                        : Adjust Based on Evolving Needs
+
+```
