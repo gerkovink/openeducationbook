@@ -14,6 +14,7 @@ CC-BY | Creative Commons Attribution
 CC-BY-SA | Creative Commons Attribution-ShareAlike
 CC-BY-NC-SA | Creative Commons Attribution-NonCommercial-ShareAlike
 GNU-GFDL | GNU Free Documentation License
+DOI | Digital Object Identifier
 
 : Abbreviations used in the book and their meanings.
 
@@ -22,30 +23,6 @@ To make consistent:
 -  GitHub vs. github
 
 
-
-
-
-What we are going to cover:
-
-- What is open education?
-  - within the context of open science
-  - not just the end result
-  - including data from examples
-- Where do you start?
-  - making it open (retrospectively) or starting open (prospectively)
-  - Licensing (boring but you have to know it)
-    - intellectual property, copyright, and public domain
-    - cc-by & cc-by-sa as proposals
-- How do you keep it up-to-date?
-- What resources are there?
-  - Github 
-  - OSF
-- How do you get appreciation / generate impact
-  - zenodo
-  - impact
-- Examples
-  - a lecture
-  - a course
 
 
 ## Contributors {#sec-contributors}

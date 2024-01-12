@@ -37,6 +37,7 @@ Examples of informative academic course pages hosted on GitHub include:
 - [STA 210: Regression Analysis at Duke University](https://sta210-s22.github.io/website/) 
 - [INFOMDWR Data Wrangling and Data Analysis at Utrecht University](https://infomdwr.nl) 
 - [Markup Languages and Reproducible Programming in Statistics at Utrecht University](https://www.gerkovink.com/markup/course-overview.html)
+- [A gentle introduction to Bayesian Estimation](https://utrechtuniversity.github.io/BayesianEstimation/)
 :::
 
 ### How to host your own website on GitHub Pages

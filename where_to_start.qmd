@@ -174,13 +174,6 @@ Preparation is extremely important. Creating new materials is a timely process, 
 
 Every initiative, regardless of its scale, requires some form of financial investment. It could be for the design and hosting of a platform, compensation for contributors, investment in technology, or promotion of the materials. Start by estimating a budget for each phase of your project. Consider all potential costs and try to anticipate unexpected expenses. Always allocate a contingency fund, as unexpected costs can and will arise. Be clear about the time you and your team can dedicate to the project as a result of the budget. This includes content creation, reviewing, updating, community engagement, and addressing feedback. Allocate sufficient time for each phase, keeping in mind that some phases may overlap or take longer than anticipated.
 
-::: {.callout-note}
-# Example of a budget
-<FONT COLOR="#ff0000">
-**Do we have one lying around that we can share? Or create a ficitve one. **
-</FONT>
-:::
-
 **Licensing** <br>
 Picking a license is not something most people will enjoy doing, but it is important to do so. It has consequences for the way you can use the material in future, and the way others can use it. @sec-licensing is fully devoted to providing you with more information on this topic. But here we want to stress the importance of choosing a license. It is one of the most important practical steps if you plan for OER. For instance, it is important to be consistent in the way you license your material. If you use different licenses for different parts of your materials, it will be difficult for others to use them. Consider if you need credits if others use your materials. Can they change it? Can they use it commercially? These are all questions that you need to answer before you can choose a license. @sec-choosing-license points you to resources that can help you to answer these questions and pick the correct licence for your materials. We hope that by listing the licencing issue here in your practical steps, each time you go through the cycle of starting to plan for OER and you use this book, you will be reminded in the early stages of the process.
 
@@ -257,7 +250,7 @@ timeline
 
 
 
-## Making it Open Retrospectively
+## Making it Open Retrospectively {#sec-making_it_open}
 
 When you want to open up existing resources, you might feel like you have a head start because you already have materials. However, in practice, this does not always mean that the process is easier. To guide you through the process of making existing resources open, we will use slightly different steps than we did for creating new OER. The first two steps of the process differ from the steps we described in @sec-planning_for_openness. The last two steps are more or less the same and differences will be adressed once we get there.   
 
