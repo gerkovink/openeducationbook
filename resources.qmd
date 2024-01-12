@@ -30,17 +30,17 @@ GitHub Pages operates by transforming plain text or markdown files in a GitHub r
 
 One of the primary advantages of using GitHub Pages for hosting educational content is its seamless integration with the rest of the GitHub ecosystem. Updates to course materials in the GitHub repository are automatically reflected on the associated GitHub Pages site. This ensures that students always have access to the most current version of the resources, fostering a dynamic and up-to-date learning environment.
 
-Moreover, GitHub Pages supports custom domain names and offers a range of themes and layouts, allowing educators to personalize their site to align with their course's branding or their institution's visual identity. This feature enhances the user experience for students and other stakeholders who visit these educational websites.
+Moreover, GitHub Pages supports custom domain names and offers a range of themes and layouts, allowing educators to personalize their site to align with their course's branding or their institution's visual identity. This feature enhances the user experience for students and other stakeholders who visit these educational websites. 
 
-**VOORBEELDEN GEVEN VAN CURSUSSEN DIE OP GITHUB GEHOST ZIJN**
+Examples of informative academic course pages hosted on GitHub include:
 
-**Template maken op Github van een cursus als tabel met slides en opdrachten**
-**gif maken wat flow van template toepassen uiteenzet**
-
+- [STA 210: Regression Analysis at Duke University](https://sta210-s22.github.io/website/) 
+- [INFOMDA2 Battling the curse of dimensionality](https://infomda2.nl) at Utrecht University
+- [Markup Languages and Reproducible Programming in Statistics at Utrecht University](https://www.gerkovink.com/markup/course-overview.html)
 :::
 
 ### How to host your own website on GitHub Pages
-
+Github has [build a great website](https://pages.github.com) to get you started with hosting your own GitHub page. Many GitHub course repositories are templates and can be easily copied and modified to your liking. More information about template repositories can be found [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-project-templates-in-your-organization)
 
 ## Open Science Framework
 [The Open Science Framework (OSF)](https://osf.io) stands as a stable ally in the quest for open science, extending beyond its original design as a tool for research project management. Its adaptability and comprehensive features make it an excellent choice for educators seeking to organize and disseminate course materials, assignments, and collaborative research projects. OSF's flexibility and ease of use cater to a wide range of educational needs, making it a valuable asset in the open education landscape.
@@ -53,3 +53,7 @@ Furthermore, OSF's capacity to facilitate collaboration across institutions is a
 
 In essence, OSF embodies the spirit of open education. It provides a structured, integrated, and collaborative platform for educators and students to access, create, and share knowledge. By leveraging OSF's capabilities, the open education movement can continue to grow and evolve, breaking down traditional barriers to education and paving the way for a more inclusive, dynamic, and interconnected learning experience. The use of OSF in open educational practices exemplifies the transformative power of technology in education, offering new pathways for teaching, learning, and research in the digital age.
 
+## SURFsharekit
+[SURFsharekit](https://surfsharekit.nl/) is a Dutch online repository service in the tailored for higher education. It serves as a digital storage platform where graduation theses, research publications, and learning materials can be sustainably stored and shared. This service is particularly notable for its emphasis on open access, ensuring that the materials stored are as accessible as possible. It encourages knowledge sharing among various educational institutions and adheres to international standards for information exchange.
+
+The repository is harvested by portals like [HBO Kennisbank](https://hbo-kennisbank.nl/index) and [Edusources](https://edusources.nl) (see @sec-impact), enhancing the visibility and reach of the stored materials. SURFsharekit represents a significant tool for higher education institutions in the Netherlands, promoting open access and facilitating easy sharing of knowledge and resources across various platforms.
