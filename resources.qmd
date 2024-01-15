@@ -38,6 +38,8 @@ Examples of informative academic course pages hosted on GitHub include:
 - [INFOMDWR Data Wrangling and Data Analysis at Utrecht University](https://infomdwr.nl) 
 - [Markup Languages and Reproducible Programming in Statistics at Utrecht University](https://www.gerkovink.com/markup/course-overview.html)
 - [A gentle introduction to Bayesian Estimation](https://utrechtuniversity.github.io/BayesianEstimation/)
+
+For a quickstart with open educational materials on GitHub, you can use a [template repository](https://github.com/hanneoberman/open_education_template). Such a template sets up a folder structure for hosting educational contents with GitHub Pages. Then, you only have to fill in the course contents, and your course website will be live right away.
 :::
 
 ### How to host your own website on GitHub Pages
