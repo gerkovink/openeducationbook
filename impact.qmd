@@ -1,11 +1,10 @@
 # Generating Impact {#sec-impact}
 
-- How do you get appreciation
-- What is impact?
+Welcome to the crucial final phase in your journey with OER `Leveraging Benefits` and Generating Impact. This chapter is dedicated to sharing some examples of how you can maximize the impact of your OER. We will explore a few key resources and strategies that can significantly amplify the impact of your OER and help you get credit for your work. 
 
 ## Zenodo
 
-[Zenodo](https://zenodo.org) is a general-purpose open repository developed under the European [OpenAIRE](https://www.openaire.eu) program and operated by [CERN](https://home.cern). It was launched in May 2013 as a means for researchers in various fields to comply with open science deposit requirements, especially in the absence of an institutional repository. Zenodo allows researchers to deposit a wide array of research-related digital artifacts, including research papers, data sets, research software, and reports. Each submission is assigned a persistent digital object identifier (DOI), facilitating easy citation of the stored items.
+[Zenodo](https://zenodo.org) is a general-purpose open repository developed under the European [OpenAIRE](https://www.openaire.eu) program and operated by [CERN](https://home.cern). It was launched in May 2013 as a means for researchers in various fields to comply with open science deposit requirements, especially in the absence of an institutional repository. Zenodo allows researchers to deposit a wide array of research-related digital artifacts, including research papers, data sets, research software, and reports. Each submission is assigned a persistent digital object identifier (DOI), facilitating easy citation of the stored items. This way you can get credit for your work on the OER.
 
 Zenodo [reported significant milestones](https://blog.zenodo.org/2021/12/07/2021-12-07-hardening-our-service/), such as hosting over 1 petabyte of data and receiving 15 million yearly visits. 
 
@@ -28,93 +27,115 @@ Referencing and citing content for scientific purposes on GitHub is not straight
 
 ## Edusources
 
-[Edusources](https://edusources.nl) is a comprehensive digital platform in the Netherlands, designed to enhance the accessibility and sharing of Open Educational Resources for the Dutch education sector. This platform is pivotal in the distribution and utilization of digital learning resources, catering to a broad spectrum of needs across various educational levels. Edusources is not designed to host files but rather to provide a centralized location for educators to discover and share digital learning materials. The hosting part can be done by other platforms, such as Zenodo, OSF, GitHub or Surfsharekit (see @sec-resources)
+[Edusources](https://edusources.nl) is a comprehensive digital platform in the Netherlands, designed to enhance the accessibility and sharing of Open Educational Resources for the Dutch education sector. This platform is pivotal in the distribution and utilization of digital learning resources, catering to a broad spectrum of needs across various educational levels. Edusources is not designed to host files but rather to provide a centralized location for educators to discover and disseminate digital learning materials. The hosting part can be done by other platforms, such as Zenodo, OSF, GitHub or Surfsharekit (see @sec-resources).
 
 One of the key features of Edusources is its extensive repository of digital learning materials. The platform offers more than 10,000 learning resources contributed by subject teachers and educational communities. These resources encompass a diverse range of materials including knowledge clips, PowerPoint presentations, PDFs, online modules, and practice tests. The platform's design not only facilitates the discovery of these resources but also encourages educators to contribute their own materials, thereby continually enhancing the quality and variety of the collection.
 
-<!-- ## final scheme starting open prospectively -->
+## Keeping Track
 
-<!-- ```{mermaid} -->
-<!-- %%| fig-cap: Note this figure is not yet ready and just here as an idea to put a sequence of actions as an overview. -->
-<!-- %%| label: fig-planning_for_openness5 -->
+Here we are! The final update of our maps. In this Chapter we discussed ways to take credit and disseminate your OER. We update our mapping in @fig-planning_for_openness5 and @fig-making_it_open5. Here you can find back the steps that have been described up to this point. Moreover, in @fig-making_it_open_all2 the two paths are shown together. 
 
-<!-- timeline -->
-<!--   title Starting Open Prospectively -->
-<!--   section Planning for Openness -->
-<!--     Scoping : Setting clear goals -->
-<!--            : Understanding your audience -->
-<!--            : Format Selection -->
-<!--            : Platform selection -->
-<!--            : Stakeholder management -->
-<!--            : Evaluation of success -->
-<!--     Practicalities : Determine suitable format -->
-<!--                    : Choose a platform -->
-<!--                    : Licencing -->
-<!--   section Creating content -->
-<!--     Design and Development : Curriculum Mapping -->
-<!--                            : Integrate Open Principles -->
-<!--                            : Content Creation Tools -->
-<!--                            : Incorporating Interactive Elements -->
-<!--     Quality Assurance and Review : Peer Review -->
-<!--                                 : Accessibility Checks -->
-<!--                                 : Iterative Testing -->
-<!--   section Launch and Implementation -->
-<!--     Promotion and Dissemination : Marketing Strategies -->
-<!--                                 : Community Building -->
-<!--     Ongoing Support : Updating Content -->
-<!--                     : Address Feedback -->
-<!--                     : Navigate Technological Changes -->
-<!--   section Leveraging Benefits -->
-<!--     Maximizing Impact : Track Usage Data -->
-<!--                       : Celebrate Successes -->
-<!--                       : Foster Collaborative Community -->
-<!--     Reflection : Evaluate Achievements -->
-<!--                : Lessons Learned -->
-<!--                : Future Roadmaps -->
+```{mermaid}
+%%| fig-cap: Mapping the actions that need to be taken to create OER prospectively. Here the actions for the Leveraging benefits stage are added to this map.
+%%| label: fig-planning_for_openness5
 
+timeline
+  title Starting Open Prospectively
+  section Planning for Openness
+    Scoping : Setting clear goals
+           : Understanding your audience
+           : Stakeholder management
+           : Evaluation of success
+    Practicalities : Resources and time commitment
+                   : Licensing
+                   : Platform and content
+  section Content
+    Creating content: Open by Design
+                    : Prepare for the Future
+                    : Testing
+  section Launch and Implementation
+    Host your OER : Pick a Platform
+  section Leveraging Benefits
+    Share your OER : Make it Discoverable
+                   : Make it Citable
 
-<!-- ``` -->
+                      
+```
 
 
 
+```{mermaid}
+%%| fig-cap: Mapping the actions that need to be taken to make resources open retrospectively. Here the actions for the Leveraging benefits stage are added to this map.
+%%| label: fig-making_it_open5
 
-<!-- ### final scheme Making it Open Retrospectively -->
+timeline
+  title Opening Up Existing Educational Materials
+  section Planning for Openness
+    Evaluating Existing Resources : Licencing
+                            : Stakeholder Management
+  section Content
+    Updating Content : Assessing and Prioritizing Updates
+                     : Testing
+  section Launch and Implementation
+    Host your OER : Pick a Platform
+  section Leveraging Benefits
+    Share your OER : Make it Discoverable
+                   : Make it Citable
+   
+
+```
 
 
-<!-- ```{mermaid} -->
-<!-- %%| fig-cap: Note this figure is not yet ready and just here as an idea to put a sequence of actions as an overview. -->
-<!-- %%| label: fig-making_it_open2 -->
+```{mermaid}
+%%| fig-cap: Mapping the actions that need to be taken to create OER. A map for the actions that need to be taken when working prospectively or retrospectively and where they start to converge. 
+%%| label: fig-making_it_open_all2
 
-<!-- timeline -->
-<!--   title Opening Up Existing Educational Materials -->
-<!--   section Assessment and Preparation -->
-<!--     Review Existing Content : Identify Current Materials -->
-<!--                             : Evaluate Quality and Relevance -->
-<!--                             : Understand Licensing  -->
-<!--                             : Review Current Licenses -->
-<!--                             : Consider Open Licensing Options -->
-<!--                             : Identify Stakeholders  -->
-<!--                             : Initial Accessibility Check -->
-<!--                             : Decide what can be open -->
-<!--   section Revision and Adaptation -->
-<!--     Content Revision : Update Outdated Content -->
-<!--                      : Incorporate Feedback -->
-<!--                      : Convert to Open Formats -->
-<!--     Licensing : Apply Suitable Open Licenses -->
-<!--               : Address Third-party Content -->
-<!--   section Publication and Promotion -->
-<!--     Choose a Hosting Platform : Select Suitable Platform -->
-<!--                               : Identify Platform Limitations -->
-<!--                               : Ensure Material Compatibility -->
-<!--                               : Migrate Materials -->
-<!--     Community Engagement : Promote to Target Audience -->
-<!--                           : Engage with Open Education Community -->
-<!--   section Maintenance and Growth -->
-<!--     Regular Review : Periodic Content Checks -->
-<!--                    : Address Community Feedback  -->
-<!--                    : Engage New Contributors -->
-<!--                    : Explore New Educational Techniques -->
-<!--     Continuous Learning : Track Usage and Impact -->
-<!--                         : Adjust Based on Evolving Needs -->
+graph TD
+    A[Starting Open Prospectively] 
+    B[Opening Up Existing Educational Materials]
+    
+    subgraph S1["Planning for Openness"]
+    A1a[Scoping]
+    A1b[Practicalities]
+    end
+   
+    subgraph S2[New Content]
+    A2a[Creating content]
+    end
 
-<!-- ``` -->
+    subgraph S3["Planning for Openness"]
+    B1a[Evaluating Existing Resources]
+    end
+
+    subgraph S4[Updating Content]
+    B2a[Assessing and Prioritizing Updates]
+    end   
+    
+    A --> S1 --> S2 --> S4
+    B --> S3 --> S4
+
+    subgraph S5["Launch and Implementation"]
+    C1a[Host your OER]
+    end   
+  
+    subgraph S6["Leveraging Benefits"]
+    D1a[Share your OER]
+    end   
+  
+    S4 --> S5
+    S5 --> S6
+    
+    style S1 fill:#8686FF,color:#FFFFFF,stroke-width:2px
+    style S3 fill:#8686FF,color:#FFFFFF,stroke-width:2px
+    style A1a fill:#A1A1FF,color:#FFFFFF,stroke-width:2px
+    style A1b fill:#A1A1FF,color:#FFFFFF,stroke-width:2px
+    style B1a fill:#A1A1FF,color:#FFFFFF,stroke-width:2px
+    style S2 fill:#FFFF78,color:#000000,stroke-width:2px
+    style S4 fill:#FFFF78,color:#000000,stroke-width:2px
+    style A2a fill:#FFFF90,color:#000000,stroke-width:2px
+    style B2a fill:#FFFF90,color:#000000,stroke-width:2px
+    style S5 fill:#D7FF86,color:#000000,stroke-width:2px
+    style C1a fill:#FFFFA1,color:#000000,stroke-width:2px
+    style S6 fill:#C386FF,color:#FFFFFF,stroke-width:2px
+    style D1a fill:#EAA1FF,color:#FFFFFF,stroke-width:2px
+```

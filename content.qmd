@@ -71,7 +71,7 @@ When updating your OER, it's incredibly useful to incorporate effective version 
 
 ## Testing {#sec-testing}
 
-Being open is not just about making content available, it is also about making sure that the content is accessible and usable. Just putting content online is not enough. You want to know that people can actually use the content of your OER after putting in all that effort to create them or opening them up. Ensuring that your open educational resources function effectively across various platforms and technologies is what we can call the "Testing" phase. The testing is meant to assess the technical robustness and user accessibility of your content. This is were our two tracks start to merge together, all materials should be tested before you are ready to share your OER.
+Being open is not just about making content available, it is also about making sure that the content is accessible and usable. Just putting content online is not enough. You want to know that people can actually use the content of your OER after putting in all that effort to create them or opening them up. Ensuring that your open educational resources function effectively across various platforms and technologies is what we can call the testing phase. The testing is meant to assess the technical robustness and user accessibility of your content. This is were our two tracks start to merge together, all materials should be tested before you are ready to share your OER. This should be done just before you start to launch.
 
 ### Technical Compatibility
 
@@ -120,8 +120,8 @@ timeline
                    : Platform and content
   section Content
     Creating content: Open by Design
-                    : Testing
                     : Prepare for the Future
+                    : Testing
   section Launch and Implementation
     ... : ...
   section Leveraging Benefits
@@ -142,7 +142,8 @@ timeline
     Evaluating Existing Resources : Licencing
                             : Stakeholder Management
   section Content
-    ... : ...
+    Updating Content : Assessing and Prioritizing Updates
+                     : Testing
   section Launch and Implementation
     ... : ...
   section Leveraging Benefits

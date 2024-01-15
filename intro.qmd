@@ -1,7 +1,8 @@
 # Introduction
 
+In this book we take you with us on a journey to the world of Open Educational Resources (OER). We will discuss what OER are, how you can create them and how you can spread and share them. We will also discuss some of the benefits and challenges of OER. We will try to be brief where we can in this book. It is not an exhaustive guide to OER, but rather a starting point for you to explore the world of OER. We do invite your to contribute to the book. At the end of this introduction in @sec-contributors contributions will be acknowledged.
 
-Because just like in any other book you will encounter a lot of abbreviations, here is a list of the most important ones. 
+Because we are aware that, like in many other books and readings, you will encounter a lot of abbreviations, we have decided to included a list of the most important ones right at the start. Here is a list of the abbreviations that you will encouter in this book. 
 
 Abbreviation | Meaning
 -----|-----
@@ -18,11 +19,8 @@ DOI | Digital Object Identifier
 
 : Abbreviations used in the book and their meanings.
 
-To make consistent:
 
--  GitHub vs. github
-
-
+We hope that you will find this book useful to start creating and sharing your own OER. If you have any questions, comments or suggestions, please do not hesitate to contact us.
 
 
 ## Contributors {#sec-contributors}

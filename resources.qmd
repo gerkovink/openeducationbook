@@ -2,12 +2,12 @@
 
 This chapter on resources serves as a guide to the various tools and platforms that can be used to create, manage, and disseminate open educational resources (OER). The overview is not comprehensive but rather provides a starting point for educators and institutions looking to incorporate open education into their teaching and learning practices. The chapter will help you with the `Launch and Implementation` stage of creating your OER, see @sec-where_to_start.
 
-The initial authors have mostly made descriptions of tools they use themselves. We welcome anyone to contribute descriptions of additional resources so that we can become more complete. Just create a pull request to add content to the book. In the online version of the book there should be a `Edit this page` button beneath the Table of contents. If you are not familiar with GitHub, please see the screen capture below on how to add content to the book. You will be recognized as a contributor to the book in the [contributors list](#sec-contributors). 
+The initial authors have mostly made descriptions of tools they use themselves. We welcome anyone to contribute descriptions of additional resources so that we can become more complete. Just create a pull request to add content to the book. In the online version of the book there should be a `Edit this page` button beneath the Table of contents. You will be recognized as a contributor to the book in the [contributors list](#sec-contributors). 
 
-
-<FONT COLOR="#ff0000">
-**Add screencapture on how to edit the book.**
-</FONT>
+<!-- If you are not familiar with GitHub, please see the screen capture below on how to add content to the book. -->
+<!-- <FONT COLOR="#ff0000"> -->
+<!-- **Add screencapture on how to edit the book.** -->
+<!-- </FONT> -->
 
 ## Github 
 [GitHub](https://github.com) is a powerful and versatile platform, transcending its traditional role as a hub for software development. At its core, GitHub is a web-based interface that utilizes [`Git`](https://git-scm.com), a version control system allowing multiple people to work together on projects. This functionality of GitHub is not limited to code; it extends seamlessly into the development and management of open educational resources.
@@ -18,7 +18,7 @@ GitHub's version control capabilities are equally useful in an educational conte
 
 Moreover, GitHub hosts a plethora of diverse educational content, offering an expansive resource pool for educators and students. The platform's open nature aligns perfectly with the ethos of open science and open education, providing unrestricted access to a wide array of learning materials. Whether it’s programming tutorials, scientific research, or entire course curricula, GitHub serves as a one-stop shop for educational resources.
 
-A notable initiative by GitHub in the education sector is GitHub Education (https://education.github.com/). This program provides students and educators with free access to the best developer tools in one place, along with opportunities to learn and collaborate. It's a valuable resource for those looking to integrate technology and collaboration in their teaching and learning processes. GitHub Education offers various benefits like free access to GitHub Enterprise or Team plans, automation tools, continuous integration, cloud hosting services, and more, all of which are pivotal in creating an interactive and engaging learning environment.
+A notable initiative by GitHub in the education sector is [GitHub Education](https://education.github.com/). This program provides students and educators with free access to the best developer tools in one place, along with opportunities to learn and collaborate. It's a valuable resource for those looking to integrate technology and collaboration in their teaching and learning processes. GitHub Education offers various benefits like free access to GitHub Enterprise or Team plans, automation tools, continuous integration, cloud hosting services, and more, all of which are pivotal in creating an interactive and engaging learning environment.
 
 By leveraging GitHub in the educational context, educators and institutions can break away from traditional, siloed approaches to teaching. The platform encourages an open, collaborative, and constantly evolving educational landscape, aligning with the modern pedagogical focus on accessibility, flexibility, and learner-centered approaches. In an era where digital literacy and collaborative skills are paramount, GitHub stands as an exemplary tool in the arsenal of open education.
 
@@ -58,3 +58,111 @@ In essence, OSF embodies the spirit of open education. It provides a structured,
 [SURFsharekit](https://surfsharekit.nl/) is a Dutch online repository service in the tailored for higher education. It serves as a digital storage platform where graduation theses, research publications, and learning materials can be sustainably stored and shared. This service is particularly notable for its emphasis on open access, ensuring that the materials stored are as accessible as possible. It encourages knowledge sharing among various educational institutions and adheres to international standards for information exchange.
 
 The repository is harvested by portals like [HBO Kennisbank](https://hbo-kennisbank.nl/index) and [Edusources](https://edusources.nl) (see @sec-impact), enhancing the visibility and reach of the stored materials. SURFsharekit represents a significant tool for higher education institutions in the Netherlands, promoting open access and facilitating easy sharing of knowledge and resources across various platforms.
+
+
+## Keeping Track
+
+In this chapter on `Launch and Implementation` we have given examples of where you can host your OER. To help you keep track of all the steps we discussed, we update our mapping in @fig-planning_for_openness4 and @fig-making_it_open4 as we have done everytime before. Note that from here on out the two paths have merged together. You can see this in @fig-making_it_open_all1. 
+
+```{mermaid}
+%%| fig-cap: Mapping the actions that need to be taken to create OER prospectively. Here the actions for the Launch and Implementation stage are added to this map. 
+%%| label: fig-planning_for_openness4
+
+timeline
+  title Starting Open Prospectively
+  section Planning for Openness
+    Scoping : Setting clear goals
+           : Understanding your audience
+           : Stakeholder management
+           : Evaluation of success
+    Practicalities : Resources and time commitment
+                   : Licensing
+                   : Platform and content
+  section Content
+    Creating content: Open by Design
+                    : Prepare for the Future
+                    : Testing
+  section Launch and Implementation
+    Host your OER : Pick a Platform
+  section Leveraging Benefits
+    ... : ...
+
+                      
+```
+
+
+
+```{mermaid}
+%%| fig-cap: Mapping the actions that need to be taken to make resources open retrospectively. Here the actions for the Launch and Implementation stage are added to this map.
+%%| label: fig-making_it_open4
+
+timeline
+  title Opening Up Existing Educational Materials
+  section Planning for Openness
+    Evaluating Existing Resources : Licencing
+                            : Stakeholder Management
+  section Content
+    Updating Content : Assessing and Prioritizing Updates
+                     : Testing
+  section Launch and Implementation
+    Host your OER : Pick a Platform
+  section Leveraging Benefits
+    ... : ...
+   
+
+```
+
+
+```{mermaid}
+%%| fig-cap: Mapping the actions that need to be taken to create OER. A map for the actions that need to be taken when working prospectively or retrospectively and where they start to converge. 
+%%| label: fig-making_it_open_all1
+
+graph TD
+    A[Starting Open Prospectively] 
+    B[Opening Up Existing Educational Materials]
+    
+    subgraph S1["Planning for Openness"]
+    A1a[Scoping]
+    A1b[Practicalities]
+    end
+   
+    subgraph S2[New Content]
+    A2a[Creating content]
+    end
+
+    subgraph S3["Planning for Openness"]
+    B1a[Evaluating Existing Resources]
+    end
+
+    subgraph S4[Updating Content]
+    B2a[Assessing and Prioritizing Updates]
+    end   
+    
+    A --> S1 --> S2 --> S4
+    B --> S3 --> S4
+
+    subgraph S5["Launch and Implementation"]
+    C1a[Host your OER]
+    end   
+  
+    subgraph S6["Leveraging Benefits"]
+    D1a[...]
+    end   
+  
+    S4 --> S5
+    S5 --> S6
+    
+    style S1 fill:#8686FF,color:#FFFFFF,stroke-width:2px
+    style S3 fill:#8686FF,color:#FFFFFF,stroke-width:2px
+    style A1a fill:#A1A1FF,color:#FFFFFF,stroke-width:2px
+    style A1b fill:#A1A1FF,color:#FFFFFF,stroke-width:2px
+    style B1a fill:#A1A1FF,color:#FFFFFF,stroke-width:2px
+    style S2 fill:#FFFF78,color:#000000,stroke-width:2px
+    style S4 fill:#FFFF78,color:#000000,stroke-width:2px
+    style A2a fill:#FFFF90,color:#000000,stroke-width:2px
+    style B2a fill:#FFFF90,color:#000000,stroke-width:2px
+    style S5 fill:#D7FF86,color:#000000,stroke-width:2px
+    style C1a fill:#FFFFA1,color:#000000,stroke-width:2px
+    style S6 fill:#C386FF,color:#FFFFFF,stroke-width:2px
+    style D1a fill:#EAA1FF,color:#FFFFFF,stroke-width:2px
+```
