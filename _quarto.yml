@@ -30,14 +30,12 @@ book:
     - open_education.qmd
     - licensing.qmd
     - where_to_start.qmd
-    - creating_content.qmd
-    - keeping_up_to_date.qmd
+    - content.qmd
     - resources.qmd
     - impact.qmd
-    - part: examples.qmd
-      chapters:
-      - example_lecture.qmd
-      - example_course.qmd
+    # - part: examples.qmd
+    #   chapters:
+    #   - example_course.qmd
   appendices:
     - references.qmd
 

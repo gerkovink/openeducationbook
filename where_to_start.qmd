@@ -4,9 +4,7 @@ Congratulations on making it this far! Your interest in Open Educational Resourc
 
 This chapter is an important waypoint in your open education journey. You've learned about what open education entails in @sec-open_education, and now, you might be wondering how to practically apply it in your own context. We've designed this chapter to guide you through the first steps in that process.
 
-We begin by discussing the choice between making educational materials open prospectively or retrospectively. Both these approaches offer unique challenges and opportunities. Although prospective design of OER will be easier in practice. Understanding the differences and challenges can help you make informed decisions when designing or adapting your resources. In this chapter we will take the first steps in the process of starting to create new OER or adapting existing materials to make them open. We start building practical checklists to help you navigate this process.
-
-Finally, we delve into the legalities associated with open education, focusing on licensing. This can often seem daunting, but it's a crucial aspect to consider. We'll dissect complex terms like Intellectual Property, Copyright, and Public Domain, making them more approachable. We'll also look at the role of Creative Commons licenses, particularly cc-by and cc-by-sa, in facilitating the sharing and usage of OER.
+We begin by discussing the choice between making educational materials open prospectively or retrospectively. Both these approaches offer unique challenges and opportunities. Although prospective design of OER will be easier in practice. Understanding the differences and challenges can help you make informed decisions when designing or adapting your resources. In this chapter we will take the first steps in the process of starting to create new OER or adapting existing materials to make them open. We start building practical checklists to help you navigate this process. Later in the process both paths will merge again.
 
 ## Making it open: Prospective or Retrospective
 
@@ -26,7 +24,7 @@ Embarking on the journey of creating OER is a rewarding endeavor, but like all s
 
 1. **Planning for Openness**: This initial stage lays the foundation. It involves understanding the why, what, and for whom you are creating the materials. It's about aligning your objectives with the needs of your audience and considering the practicalities involved. Information on this stage will be presented in this chapter. 
 
-2. **Creating Content**: Once the groundwork is established, the focus shifts to the content. This stage is dedicated to crafting high-quality, accessible, and engaging materials. It encompasses not just the creation, but also the considerations of format, adaptability, and inclusivity. In @sec-creating_content more details on this stage can be found. 
+2. **Creating Content**: Once the groundwork is established, the focus shifts to the content. This stage is dedicated to crafting high-quality, accessible, and engaging materials. It encompasses not just the creation, but also the considerations of format, adaptability, and inclusivity. In @sec-content more details on this stage can be found. 
 
 3. **Launch and Implementation**: Here, the prepared materials are introduced to the world. This phase involves selecting the right platform, ensuring easy access for your target audience, and setting up mechanisms for feedback and interaction. For this, you need to work with the right resources, details on which can be found in @sec-resources. 
 
@@ -174,20 +172,13 @@ Preparation is extremely important. Creating new materials is a timely process, 
 
 Every initiative, regardless of its scale, requires some form of financial investment. It could be for the design and hosting of a platform, compensation for contributors, investment in technology, or promotion of the materials. Start by estimating a budget for each phase of your project. Consider all potential costs and try to anticipate unexpected expenses. Always allocate a contingency fund, as unexpected costs can and will arise. Be clear about the time you and your team can dedicate to the project as a result of the budget. This includes content creation, reviewing, updating, community engagement, and addressing feedback. Allocate sufficient time for each phase, keeping in mind that some phases may overlap or take longer than anticipated.
 
-::: {.callout-note}
-# Example of a budget
-<FONT COLOR="#ff0000">
-**Do we have one lying around that we can share? Or create a ficitve one. **
-</FONT>
-:::
-
 **Licensing** <br>
 Picking a license is not something most people will enjoy doing, but it is important to do so. It has consequences for the way you can use the material in future, and the way others can use it. @sec-licensing is fully devoted to providing you with more information on this topic. But here we want to stress the importance of choosing a license. It is one of the most important practical steps if you plan for OER. For instance, it is important to be consistent in the way you license your material. If you use different licenses for different parts of your materials, it will be difficult for others to use them. Consider if you need credits if others use your materials. Can they change it? Can they use it commercially? These are all questions that you need to answer before you can choose a license. @sec-choosing-license points you to resources that can help you to answer these questions and pick the correct licence for your materials. We hope that by listing the licencing issue here in your practical steps, each time you go through the cycle of starting to plan for OER and you use this book, you will be reminded in the early stages of the process.
 
 
 
 **Platform and Content** <br>
-Deciding on platform and content cannot fully be seen as independent from each other. If you decide to use certain content types, e.g. videos, PowerPoint, PDFs, you will need to consider the platform that can host these content types. If you already chose a platform, you will need to consider the content types that can be hosted on the platform you choose. Can you make it work? If not, you will need to reconsider either the platform or the content types. @sec-resources helps you with some practical options to choose your resources and @sec-example_courses shows examples of how others have done it. There will be many more options out there that we do not describe, so feel free to explore and find what works for you. The planning stage is however the stage to make these decisions. 
+Deciding on platform and content cannot fully be seen as independent from each other. If you decide to use certain content types, e.g. videos, PowerPoint, PDFs, you will need to consider the platform that can host these content types. If you already chose a platform, you will need to consider the content types that can be hosted on the platform you choose. Can you make it work? If not, you will need to reconsider either the platform or the content types. @sec-resources helps you with some practical options to choose your resources and some examples of how others have done it will be given. There will be many more options out there that we do not describe, so feel free to explore and find what works for you. The planning stage is however the stage to make these decisions. 
 When selecting platforms and content types for open educational resources, key considerations include the content creation workflow, encompassing quality control and collaboration methods; distribution and outreach strategies for sharing materials, and ensuring accessibility for all learners. Additionally, maybe you want to fostering engagement, collect feedback, or have iterative improvement of materials. We developed [Exercise @exm-scoping_questions2] to help you think about the content types you want to use and [Exercise @exm-scoping_questions3] to help you think about the platform you want to use.
 
 To help you keep track of all the steps, we update our mapping in @fig-planning_for_openness1. Here you can find back the steps that have been described up to this point. 
@@ -257,7 +248,7 @@ timeline
 
 
 
-## Making it Open Retrospectively
+## Making it Open Retrospectively {#sec-making_it_open}
 
 When you want to open up existing resources, you might feel like you have a head start because you already have materials. However, in practice, this does not always mean that the process is easier. To guide you through the process of making existing resources open, we will use slightly different steps than we did for creating new OER. The first two steps of the process differ from the steps we described in @sec-planning_for_openness. The last two steps are more or less the same and differences will be adressed once we get there.   
 
